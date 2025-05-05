@@ -213,15 +213,6 @@
 			}
 		},
 		{
-			"file": "composer.json",
-			"settings":
-			{
-				"buffer_size": 3979,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "web/.gitignore",
 			"settings":
 			{
@@ -282,6 +273,7 @@
 	],
 	"file_history":
 	[
+		"/var/www/ns/composer.json",
 		"/var/www/ns/composer.lock",
 		"/var/www/ns/web/themes/custom/b5subtheme/b5subtheme.info.yml",
 		"/var/www/ns/web/themes/custom/b5subtheme/b5subtheme.libraries.yml",
@@ -299,7 +291,6 @@
 		"/var/www/ns/web/themes/contrib/bootstrap5/css/style-52.css",
 		"/var/www/ns/web/themes/contrib/bootstrap5/css/ck5style.css",
 		"/var/www/ns/web/modules/contrib/views_slideshow/README.md",
-		"/var/www/ns/composer.json",
 		"/var/www/ns/web/themes/custom/b5subtheme/scss/abstracts/_utilities.scss",
 		"/var/www/ns/web/themes/custom/b5subtheme/scss/base/_reset.scss",
 		"/var/www/ns/web/themes/custom/b5subtheme/scss/abstracts/_mixins.scss",
@@ -459,7 +450,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -489,41 +480,11 @@
 						"translation.y": 594.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "composer.json",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3979,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								625,
-								625
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 267.0,
-						"zoom_level": 1.0
-					},
 					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 1,
 					"file": "web/.gitignore",
 					"semi_transient": true,
 					"settings":
@@ -544,7 +505,7 @@
 							"syntax": "Packages/Git Formats/Git Ignore.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 208.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
