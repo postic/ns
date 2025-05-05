@@ -1,0 +1,615 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"m",
+				"margin-top\tproperty"
+			],
+			[
+				"ma",
+				"margin-right\tproperty"
+			],
+			[
+				"u",
+				"uppercase\ttext-transform"
+			],
+			[
+				"text",
+				"text-transform\tproperty"
+			],
+			[
+				"padd",
+				"padding\tproperty"
+			],
+			[
+				"tex",
+				"text-decoration\tproperty"
+			],
+			[
+				"font",
+				"font-weight\tproperty"
+			],
+			[
+				"padding-",
+				"padding-left\tproperty"
+			],
+			[
+				"bo",
+				"border-bottom"
+			],
+			[
+				"spa",
+				"space-between\tjustify-content"
+			],
+			[
+				"fle",
+				"flex-grow\tproperty"
+			],
+			[
+				"fl",
+				"flex-start\tjustify-content"
+			],
+			[
+				"flex",
+				"flex-direction\tproperty"
+			],
+			[
+				"te",
+				"text-decoration\tproperty"
+			],
+			[
+				"backgro",
+				"background-color\tproperty"
+			],
+			[
+				"a",
+				"auto\theight"
+			],
+			[
+				"ba",
+				"background-color\tproperty"
+			],
+			[
+				"fon",
+				"font-weight\tproperty"
+			],
+			[
+				"im",
+				"important"
+			],
+			[
+				"back",
+				"background-color\tproperty"
+			],
+			[
+				"do",
+				"dotenv"
+			],
+			[
+				"_",
+				"_ENV"
+			],
+			[
+				"data",
+				"data-format"
+			],
+			[
+				"curre",
+				"current_path_array"
+			],
+			[
+				"cure",
+				"current_path_array"
+			],
+			[
+				"curr",
+				"current_path"
+			],
+			[
+				"req",
+				"request"
+			],
+			[
+				"ini",
+				"init_page"
+			],
+			[
+				"column",
+				"columnDefs"
+			],
+			[
+				"colum",
+				"columnDefs"
+			],
+			[
+				"colun",
+				"columnDefs"
+			],
+			[
+				"font-s",
+				"font-size\tproperty"
+			],
+			[
+				"me",
+				"mesto_id"
+			],
+			[
+				"cb_za",
+				"cb_zapisnicar_id"
+			],
+			[
+				"zaposle",
+				"zaposleni_razduzio"
+			],
+			[
+				"zaposl",
+				"zaposleni_razduzio"
+			],
+			[
+				"vrst",
+				"vrsta_goriva"
+			],
+			[
+				"role",
+				"role_name"
+			],
+			[
+				"wp",
+				"wpuser"
+			],
+			[
+				"ime",
+				"ime_prezime"
+			],
+			[
+				"remo",
+				"remove_menu_page"
+			],
+			[
+				"save",
+				"saved_wp_user"
+			],
+			[
+				"su",
+				"submitted_roles"
+			],
+			[
+				"user",
+				"user_id"
+			],
+			[
+				"for",
+				"foreach\tforeach …"
+			],
+			[
+				"pos",
+				"post_wpuid"
+			],
+			[
+				"wid",
+				"width\tproperty"
+			],
+			[
+				"bac",
+				"background-repeat"
+			],
+			[
+				"t",
+				"text-transform"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "web/themes/custom/b5subtheme/scss/base/_typography.scss",
+			"settings":
+			{
+				"buffer_size": 1019,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "web/themes/custom/b5subtheme/scss/layout/_body.scss",
+			"settings":
+			{
+				"buffer_size": 2543,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"scss",
+				"Set Syntax: CSS"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Project Manager: Add New Project"
+			],
+			[
+				"Install Package Control",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/var/www/ns/web",
+		"/var/www/ns/web/modules",
+		"/var/www/ns/web/themes",
+		"/var/www/ns/web/themes/contrib",
+		"/var/www/ns/web/themes/custom",
+		"/var/www/ns/web/themes/custom/b5subtheme",
+		"/var/www/ns/web/themes/custom/b5subtheme/images"
+	],
+	"file_history":
+	[
+		"/var/www/ns/web/themes/custom/b5subtheme/b5subtheme.info.yml",
+		"/var/www/ns/web/themes/custom/b5subtheme/b5subtheme.libraries.yml",
+		"/var/www/ns/web/modules/contrib/fontawesome/README.md",
+		"/var/www/ns/web/themes/custom/b5subtheme/scss/style.scss",
+		"/var/www/ns/web/themes/custom/b5subtheme/scss/layout/_body.scss",
+		"/var/www/ns/web/themes/custom/b5subtheme/package.json",
+		"/var/www/ns/web/themes/custom/b5subtheme/scss/abstracts/_variables.scss",
+		"/var/www/ns/web/themes/custom/b5subtheme/scss/layout/_sidebar.scss",
+		"/var/www/ns/web/themes/custom/b5subtheme/scss/base/_typography.scss",
+		"/var/www/ns/web/themes/custom/b5subtheme/scss/layout/_footer.scss",
+		"/var/www/ns/web/themes/custom/b5subtheme/templates/layout/page.html.twig",
+		"/var/www/ns/web/themes/custom/b5subtheme/scss/layout/_header.scss",
+		"/var/www/ns/web/themes/custom/b5subtheme/b5subtheme.breakpoints.yml",
+		"/var/www/ns/web/themes/contrib/bootstrap5/css/style-52.css",
+		"/var/www/ns/web/themes/contrib/bootstrap5/css/ck5style.css",
+		"/var/www/ns/web/modules/contrib/views_slideshow/README.md",
+		"/var/www/ns/composer.json",
+		"/var/www/ns/web/themes/custom/b5subtheme/scss/abstracts/_utilities.scss",
+		"/var/www/ns/web/themes/custom/b5subtheme/scss/base/_reset.scss",
+		"/var/www/ns/web/themes/custom/b5subtheme/scss/abstracts/_mixins.scss",
+		"/var/www/ns/web/themes/contrib/bootstrap5/templates/layout/page.html.twig",
+		"/var/www/ns/web/themes/custom/b5subtheme/scss/abstracts/_index.scss",
+		"/var/www/ns/web/themes/custom/b5subtheme/scss/components/_header.scss",
+		"/var/www/ns/web/themes/custom/b5subtheme/scss/components/_footer.scss",
+		"/var/www/ns/web/themes/custom/b5subtheme/scss/components/_sidebar.scss",
+		"/var/www/ns/web/themes/custom/b5subtheme/scss/index.scss",
+		"/var/www/ns/web/themes/custom/b5subtheme/scss/layouts/_sidebar.scss",
+		"/var/www/ns/web/themes/custom/b5subtheme/scss/components/_index.scss",
+		"/var/www/ns/web/themes/custom/b5subtheme/scss/layouts/_index.scss",
+		"/var/www/ns/web/themes/custom/b5subtheme/scss/components/_buttons.scss",
+		"/var/www/ns/web/themes/custom/b5subtheme/scss/base/_index.scss",
+		"/var/www/ns/web/themes/custom/b5subtheme/scss/base/_root.scss",
+		"/var/www/ns/web/themes/custom/b5subtheme/scss/layouts/_grid.scss",
+		"/var/www/ns/web/themes/custom/b5subtheme/css/style.css",
+		"/var/www/sharefoundation/wp-content/themes/share-foundation-theme-3/scss/main.scss",
+		"/var/www/ns/web/themes/custom/b5subtheme/scss/_variables_bootstrap.scss",
+		"/var/www/ns/web/themes/custom/b5subtheme/scss/_variables_drupal.scss",
+		"/var/www/ns/web/themes/custom/b5subtheme/webpack.mix.js",
+		"/var/www/ns/web/themes/custom/novi_sad/scss/components/body.scss",
+		"/var/www/ns/web/themes/custom/novi_sad/config/install/novi_sad.settings.yml",
+		"/var/www/ns/web/themes/custom/novi_sad/templates/components/footer.html.twig",
+		"/var/www/ns/web/themes/custom/novi_sad/scss/components/footer.scss",
+		"/var/www/ns/web/themes/custom/novi_sad/scss/variables.scss",
+		"/var/www/ns/web/themes/custom/novi_sad/scss/components/header.scss",
+		"/var/www/ns/web/themes/custom/novi_sad/scss/components/sidebar.scss",
+		"/var/www/ns/web/themes/custom/novi_sad/scss/theme/style.scss",
+		"/var/www/ns/web/themes/custom/novi_sad/templates/page/page.html.twig",
+		"/var/www/ns/web/themes/custom/novi_sad/templates/misc/page-title.html.twig",
+		"/var/www/ns/web/themes/custom/novi_sad/scss/components/content.scss",
+		"/var/www/ns/web/themes/custom/novi_sad/templates/layout/html.html.twig",
+		"/var/www/ns/web/themes/custom/novi_sad/templates/components/header.html.twig",
+		"/var/www/ns/web/themes/contrib/flexistyle_bootstrap/templates/components/footer.html.twig",
+		"/var/www/ns/web/themes/contrib/flexistyle_bootstrap/templates/page/page.html.twig",
+		"/var/www/ns/web/themes/custom/novi_sad/novi_sad.info.yml",
+		"/var/www/ns/web/themes/custom/novi_sad/flexistyle_bootstrap_scss.info.yml",
+		"/var/www/ns/web/themes/custom/novi_sad/theme-settings.php",
+		"/var/www/ns/web/themes/custom/novi_sad/flexistyle_bootstrap_scss.theme",
+		"/var/www/ns/web/themes/custom/novi_sad/templates/content/region.html.twig",
+		"/var/www/ns/web/themes/custom/novi_sad/templates/components/head.html.twig",
+		"/var/www/ns/web/themes/custom/novi_sad/templates/block/block.html.twig",
+		"/var/www/ns/web/themes/custom/novi_sad/templates/content/node.html.twig",
+		"/var/www/ns/web/themes/custom/novi_sad/templates/block/block--block-content-text.html.twig\n",
+		"/var/www/ns/web/themes/contrib/flexistyle_bootstrap_scss/README.md",
+		"/home/stevan/Downloads/Izvodi_03_04_2025_340000001102067855_RSD.csv",
+		"/var/www/ns/web/themes/custom/bs5/bs5.info.yml",
+		"/var/www/ns/web/themes/contrib/dawn/dawn.info.yml",
+		"/var/www/ns/web/themes/contrib/flexistyle_bootstrap/templates/components/header.html.twig",
+		"/var/www/ns/web/themes/contrib/flexistyle_bootstrap/package.json",
+		"/var/www/ns/web/themes/contrib/bootstrap4/package.json",
+		"/var/www/ns/web/themes/custom/ns/scss/style.scss",
+		"/var/www/ns/web/themes/contrib/bootstrap4/templates/layout/page.html.twig",
+		"/var/www/ns/web/themes/custom/ns/README.md",
+		"/var/www/ns/web/themes/custom/novisad/novisad.libraries.yml",
+		"/var/www/ns/web/themes/custom/novisad/novisad.info.yml",
+		"/var/www/ns/web/themes/custom/novisad/css/style.css",
+		"/var/www/ns/web/themes/custom/novisad/templates/page.html.twig",
+		"/var/www/ns/web/themes/custom/novisad/scss/style.scss",
+		"/var/www/ns/web/themes/custom/novisad/package.json",
+		"/var/www/ns/web/themes/custom/novisad/cscc/style.scss",
+		"/var/www/ns/web/themes/custom/novisad/templates/layout/html.html.twig",
+		"/var/www/ns/web/themes/custom/novisad/templates/menu/menu--account.html.twig",
+		"/var/www/ns/web/themes/custom/novisad/templates/region/region.html.twig",
+		"/var/www/ns/web/themes/custom/novisad/templates/block/block--local-tasks-block.html.twig",
+		"/var/www/ns/web/themes/custom/novisad/templates/block/block.html.twig",
+		"/var/www/ns/web/themes/custom/novisad/templates/form/select.html.twig",
+		"/var/www/ns/web/themes/custom/novisad/templates/form/textarea.html.twig",
+		"/var/www/ns/web/themes/custom/novisad/templates/menu/menu--main.html.twig",
+		"/var/www/ns/web/themes/custom/novisad/templates/menu/menu-local-task.html.twig",
+		"/var/www/ns/web/themes/custom/novisad/templates/menu/menu-local-tasks.html.twig",
+		"/var/www/ns/web/themes/custom/novisad/templates/menu/menu.html.twig",
+		"/var/www/ns/web/themes/custom/novisad/templates/misc/status-messages.html.twig",
+		"/var/www/ns/web/themes/custom/novisad/templates/navigation/breadcrumb.html.twig",
+		"/var/www/ns/web/themes/custom/novisad/templates/page/page.html.twig",
+		"/var/www/ns/web/themes/custom/novisad/templates/form/radios.html.twig",
+		"/var/www/ns/web/themes/custom/novisad/templates/form/input.html.twig",
+		"/var/www/ns/web/themes/custom/novisad/templates/form/input--submit.html.twig",
+		"/var/www/ns/web/themes/custom/novisad/templates/form/input--radio.html.twig",
+		"/var/www/ns/web/themes/custom/novisad/templates/form/input--checkbox.html.twig",
+		"/var/www/ns/web/themes/custom/novisad/templates/form/form.html.twig",
+		"/var/www/ns/web/themes/custom/novisad/templates/form/form-element.html.twig",
+		"/var/www/ns/web/themes/custom/novisad/templates/form/form-element--radio.html.twig",
+		"/var/www/ns/web/themes/custom/novisad/templates/form/form-element--checkbox.html.twig",
+		"/var/www/ns/web/themes/custom/novisad/templates/form/form--search-block-form.html.twig",
+		"/var/www/ns/web/themes/custom/novisad/templates/form/fieldset.html.twig",
+		"/var/www/ns/web/themes/custom/novisad/templates/form/details.html.twig",
+		"/var/www/ns/web/themes/custom/novisad/templates/field/image.html.twig",
+		"/var/www/ns/web/themes/custom/novisad/templates/field/filter-caption.html.twig",
+		"/var/www/ns/web/themes/custom/novisad/templates/field/field.html.twig",
+		"/var/www/ns/web/themes/custom/novisad/templates/field/field--comment.html.twig",
+		"/var/www/ns/web/themes/custom/novisad/templates/dataset/table.html.twig",
+		"/var/www/ns/web/themes/custom/novisad/templates/dataset/forum-list.html.twig",
+		"/var/www/ns/web/themes/custom/novisad/templates/content/page-title.html.twig",
+		"/var/www/ns/web/themes/custom/novisad/templates/content/node.html.twig",
+		"/var/www/ns/web/themes/custom/novisad/templates/content/node--forum--full.html.twig",
+		"/var/www/ns/web/themes/custom/novisad/templates/content/media.html.twig",
+		"/var/www/ns/web/themes/custom/novisad/templates/content/comment.html.twig",
+		"/var/www/ns/web/themes/custom/novisad/templates/block/block--system-menu-block.html.twig",
+		"/var/www/ns/web/themes/custom/novisad/templates/block/block--system-main-block.html.twig",
+		"/var/www/ns/web/themes/custom/novisad/templates/block/block--system-branding-block.html.twig",
+		"/var/www/ns/web/themes/custom/novisad/templates/navigation/dropbutton-wrapper.html.twig",
+		"/var/www/ns/web/themes/custom/novisad/templates/navigation/pager.html.twig",
+		"/var/www/ns/web/themes/custom/novisad/templates/navigation/links.html.twig",
+		"/var/www/ns/web/themes/custom/novisad/templates/navigation/links--dropbutton.html.twig",
+		"/var/www/ns/web/themes/custom/novisad/templates/user/user.html.twig",
+		"/var/www/ns/web/themes/custom/novisad/cscc/_custom.scss",
+		"/var/www/ns/web/themes/custom/novisad/scss/_custom.scss",
+		"/var/www/ns/web/themes/custom/novisad/templates/layouts/layout--onecol.html.twig",
+		"/var/www/ns/web/themes/custom/novisad/scss/_variables.scss"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 108.0,
+		"where_history":
+		[
+			"/var/www/ns/web/themes/custom/b5subtheme/scss",
+			"/var/www/ns/web/themes/custom/b5subtheme/scss/layout",
+			"/var/www/ns/web/themes/custom/b5subtheme",
+			"/var/www/ns/web/themes/custom/b5subtheme/scss"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"bootstr",
+			"$color-white-dark",
+			"992",
+			"media",
+			"bread",
+			"media",
+			"footer_classes",
+			"0 0.5rem",
+			"ff-primary",
+			"@use",
+			"red"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "web/themes/custom/b5subtheme/scss/base/_typography.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1019,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1005,
+								1005
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/SCSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 594.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "web/themes/custom/b5subtheme/scss/layout/_body.scss",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 2543,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								72,
+								72
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/SCSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 40.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "ns.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"wp-admin/css/revisions.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"/var/www/development/development.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 273.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
