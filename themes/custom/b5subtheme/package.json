@@ -1,0 +1,17 @@
+{
+  "name": "b5subtheme",
+  "version": "1.0.0",
+  "description": "[Bootstrap 5](https://www.drupal.org/project/bootstrap5) subtheme.",
+  "main": "webpack.mix.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "laravel-mix": "^6.0.49",
+    "sass": "^1.87.0",
+    "sass-loader": "^12.6.0"
+  }
+}

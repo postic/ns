@@ -1,0 +1,10 @@
+name: Empty Front Page
+type: module
+description: 'Sets the front page to an empty page'
+package: Custom
+core_version_requirement: ^9.3 || ^10
+
+# Information added by Drupal.org packaging script on 2023-01-16
+version: '8.x-1.1'
+project: 'empty_front_page'
+datestamp: 1673903761

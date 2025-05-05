@@ -1,0 +1,69 @@
+.heading-main {
+   font-size: 7rem;
+   font-weight: 100;
+}
+
+.heading-secondary {
+   font-size: 4rem;
+   font-weight: 200;
+}
+
+a {
+  color: $color-primary;
+  text-decoration: none;
+  //text-transform: uppercase;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+
+
+.block {
+
+  h2 {
+    border-bottom: 1px solid $color-white-dark;
+    font-weight: 300;
+    text-transform: uppercase;
+  }
+
+  .views-row {
+    border-bottom: 1px dotted $color-white-dark;
+    padding: 0.625rem 0;
+    a {
+      text-transform: uppercase;
+    }
+  }
+
+  .more-link {
+    margin-top: 1rem;
+    a::after {
+      font-family: 'Font Awesome 6 Free';
+      font-weight: 900;
+      color: $color-green;
+      content: '\f152';
+      margin-left: .5rem;
+    }
+    a:hover {
+      text-decoration: none;
+    }
+  }
+
+}
+
+@media (min-width: 1200px) {
+  h2, .h2 {
+    font-size: 1.8rem;
+  }
+}
+
+.view-documents {
+  &.view-display-id-block_1 {
+    .views-row {
+      background: url(../images/i-docs.png) no-repeat 0 50%;
+      padding-left: 1.75rem;
+    }
+  }
+}

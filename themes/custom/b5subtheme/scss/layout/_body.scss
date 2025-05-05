@@ -1,0 +1,136 @@
+body {
+  background: url(../images/bg-body.png) no-repeat 50% 0 #f0ece5;
+  background-size: contain;
+  //&.path-frontpage{
+    main {
+      margin-top: 1rem;
+    }
+  //}
+}
+
+@media (min-width: 992px) {
+  .navbar-brand img {
+    height: auto;
+    width: 100%;
+  }
+}
+
+ol.breadcrumb {
+  //margin-top: 1rem;
+  li {
+    a {
+      color: $dark;
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+.region-sidebar-first,
+.region-sidebar-second,
+.region-footer,
+.region-content {
+  padding: 0;
+}
+
+.order-1 {
+  .region {
+    &.region-content {
+
+      margin-bottom: 1rem;
+      padding: 1rem;
+      border: 1px solid $color-white-dark;
+      background-color: $color-white;
+      box-shadow: 0 2px 0.25rem rgb(0, 0, 0, 0.1);
+
+    }
+
+    &.region-content-top {
+
+      display: flex;
+      flex-wrap: wrap;
+      //flex-direction: row;
+
+      #block-b5subtheme-views-block-news-block-1 {
+        flex-basis: 100%;
+      }
+      #block-b5subtheme-views-block-news-block-2,
+      #block-b5subtheme-views-block-documents-block-1,
+      #block-b5subtheme-views-block-galleries-block-1,
+      #block-b5subtheme-quicktabsodluke {
+        width: 49%;
+      }
+      #block-b5subtheme-views-block-news-block-2,
+      #block-b5subtheme-views-block-documents-block-1 {
+        margin-right: 1%;
+      }
+      #block-b5subtheme-quicktabsodluke,
+      #block-b5subtheme-views-block-galleries-block-1 {
+        margin-left: 1%;
+      }
+
+      .block {
+        margin-bottom: 1rem;
+        padding: 1rem;
+        border: 1px solid $color-white-dark;
+        background-color: $color-white;
+        box-shadow: 0 2px 0.25rem rgb(0, 0, 0, 0.1);
+      }
+    }
+
+    &.region-content-bottom {
+
+      .block {
+
+        background-color: $color-white;
+        border: 1px solid $color-white-dark;
+        box-shadow: 0 2px 0.25rem rgb(0, 0, 0, 0.1);
+        margin-bottom: 1rem;
+        padding: 0.5rem;
+
+        h2 {
+          border-bottom: 1px solid $color-white-dark;
+          font-size: 1.2rem;
+        }
+
+        p {
+          margin: 0;
+        }
+
+        ul, ol {
+          margin: 0;
+          padding: 0 0 0 1rem;
+        }
+
+        img {
+          height: auto;
+          width: 100%;
+        }
+
+        a {
+          text-decoration: none;
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 568px) {
+  .order-1 {
+    padding: 0 1rem;
+  }
+
+  body.path-frontpage {
+    .order-1 {
+      padding-left: 0 !important;
+    }
+  }
+}
+
+

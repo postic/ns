@@ -1,0 +1,57 @@
+footer {
+
+   .wrapper-footer {
+
+      background-color: $white;
+      border: 1px solid $color-white-dark;
+      box-shadow: 0 2px 0.25rem rgb(0, 0, 0, 0.1);
+      padding: 0 1rem;
+
+      .region {
+         padding: 2rem 1rem 0rem 1rem;
+         nav {
+            margin: 0 0 2rem 0;
+            h5 {
+               margin: 0 0 1rem 0;
+            }
+            ul.nav {
+               li a {
+                  padding: 0.125rem 0;
+               }
+            }
+         }
+      }
+
+      .contentinfo {
+         border-right: 1px solid $color-white-dark;
+         .region {
+            padding-left: 0.5rem;
+            padding-right: 0.5rem;
+            img {
+               margin-bottom: 1rem;
+            }
+         }
+      }
+
+      .region-disclaimer {
+         border-top: 1px solid $color-white-dark;
+         padding: 1rem 0;
+         nav {
+            margin: 0;
+            padding: 0;
+            ul.nav {
+               display: flex;
+               flex-direction: row;
+               justify-content: space-between;
+               padding: 0 0.5rem;
+               .nav-item {
+                  .nav-link {
+                     padding: 0 !important;
+                  }
+               }
+            }
+         }
+      }
+
+   }
+}

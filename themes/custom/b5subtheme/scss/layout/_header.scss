@@ -1,0 +1,55 @@
+.header {
+   border-top: 3rem solid $color-primary-dark;
+   background-color: $color-primary;
+   min-height: 95vh;
+   position: relative;
+   overflow: hidden;
+
+   &__text {
+      font-weight: 200;
+      font-size: 2.5rem;
+      line-height: 2;
+   }
+
+   &__link {
+      position: absolute;
+      top: 0;
+      right: 5rem;
+   }
+
+   &__description {
+      background-color: $color-white;
+      color: $color-black;
+      padding: 4rem 7rem;
+      text-align: left;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      box-shadow: 0 0 10px 3px rgba($color-black, 0.2);
+   }
+
+   &__description-box {
+      width: max-content;
+      margin: 3rem auto;
+      border: 2rem solid $color-primary-dark;
+   }
+
+   &__description-heading {
+      font-size: 4rem;
+      font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+         "Lucida Sans", Arial, sans-serif;
+      font-weight: 200;
+      margin: 1rem 0 2rem;
+   }
+
+   &__list {
+      color: $color-black;
+      font-size: 2rem;
+      line-height: 1.5;
+   }
+
+   &__list-item {
+      font-weight: 400;
+   }
+}
