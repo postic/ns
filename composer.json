@@ -28,6 +28,7 @@
         "drupal/fontawesome": "^3.0",
         "drupal/libraries": "^4.0",
         "drupal/menu_block": "^1.14",
+        "drupal/metatag": "^2.1",
         "drupal/quicktabs": "^4.0",
         "drupal/views_bootstrap": "^5.5@RC",
         "drupal/views_slideshow": "^5.0",
