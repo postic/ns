@@ -213,10 +213,19 @@
 			}
 		},
 		{
-			"file": "web/themes/custom/b5subtheme/scss/layout/_body.scss",
+			"file": "composer.json",
 			"settings":
 			{
-				"buffer_size": 2543,
+				"buffer_size": 3979,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "web/.gitignore",
+			"settings":
+			{
+				"buffer_size": 1495,
 				"line_ending": "Unix"
 			}
 		}
@@ -269,16 +278,11 @@
 	},
 	"expanded_folders":
 	[
-		"/var/www/ns/web",
-		"/var/www/ns/web/modules",
-		"/var/www/ns/web/themes",
-		"/var/www/ns/web/themes/contrib",
-		"/var/www/ns/web/themes/custom",
-		"/var/www/ns/web/themes/custom/b5subtheme",
-		"/var/www/ns/web/themes/custom/b5subtheme/images"
+		"/var/www/ns"
 	],
 	"file_history":
 	[
+		"/var/www/ns/composer.lock",
 		"/var/www/ns/web/themes/custom/b5subtheme/b5subtheme.info.yml",
 		"/var/www/ns/web/themes/custom/b5subtheme/b5subtheme.libraries.yml",
 		"/var/www/ns/web/modules/contrib/fontawesome/README.md",
@@ -405,8 +409,7 @@
 		"/var/www/ns/web/themes/custom/novisad/templates/user/user.html.twig",
 		"/var/www/ns/web/themes/custom/novisad/cscc/_custom.scss",
 		"/var/www/ns/web/themes/custom/novisad/scss/_custom.scss",
-		"/var/www/ns/web/themes/custom/novisad/templates/layouts/layout--onecol.html.twig",
-		"/var/www/ns/web/themes/custom/novisad/scss/_variables.scss"
+		"/var/www/ns/web/themes/custom/novisad/templates/layouts/layout--onecol.html.twig"
 	],
 	"find":
 	{
@@ -456,7 +459,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -472,8 +475,8 @@
 						"selection":
 						[
 							[
-								1005,
-								1005
+								853,
+								853
 							]
 						],
 						"settings":
@@ -486,37 +489,65 @@
 						"translation.y": 594.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "web/themes/custom/b5subtheme/scss/layout/_body.scss",
-					"semi_transient": true,
+					"file": "composer.json",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2543,
+						"buffer_size": 3979,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								72,
-								72
+								625,
+								625
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Sass/Syntaxes/SCSS.sublime-syntax",
-							"tab_size": 2,
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 4,
 							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 267.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "web/.gitignore",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 1495,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Git Formats/Git Ignore.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
