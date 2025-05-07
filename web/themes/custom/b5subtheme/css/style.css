@@ -13000,6 +13000,15 @@ a:hover {
   padding-left: 1.75rem;
 }
 
+figure {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 10rem;
+  max-height: 10rem;
+  width: 100%;
+}
+
 body {
   background: url(../images/bg-body.png) no-repeat 50% 0 #f0ece5;
   background-size: contain;

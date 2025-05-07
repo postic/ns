@@ -67,3 +67,12 @@ a:hover {
     }
   }
 }
+
+figure {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 10rem;
+  max-height: 10rem;
+  width: 100%;
+}
