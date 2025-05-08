@@ -79,25 +79,116 @@
 %}
 {{ attach_library('bootstrap5/node') }}
 
-<div class="item-list mb-3">
-  <div class="row">
-    <div class='col-md-4'>
-      <figure style="background-image: url({{ node.field_images.0|file_url }});"></figure>
-    </div>
-    <div class='col-md-8'>
-      {% if label and not page %}
-      <h2{{ title_attributes }}>
-        <a href="{{ url }}" rel="bookmark">{{ label }}</a>
-      </h2>
-      {% endif %}
+<article{{ attributes.addClass(classes) }}>
 
-      {% if display_submitted %}
-      <div{{ author_attributes.addClass('node__submitted') }}>
-        {{ date }}
-        {{ metadata }}
+  {{ title_prefix }}
+  {% if label and not page %}
+    <h2{{ title_attributes }}>
+      <a href="{{ url }}" rel="bookmark">{{ label }}</a>
+    </h2>
+  {% endif %}
+  {{ title_suffix }}
+
+  {% if display_submitted %}
+    <div{{ author_attributes.addClass('node__submitted') }}>
+      {{ date }}
+      {{ metadata }}
+    </div>
+  {% endif %}
+
+  <div{{ content_attributes.addClass('node__content') }}>
+    {% if image_overview %}
+      <img src="{{ image_overview }}" class="image-overview"/>
+    {% endif %}
+    {{ content.body }}
+  </div>
+
+  <div class="row mx-auto my-auto justify-content-center">
+    <div id="recipeCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner" role="listbox">
+        <div class="carousel-item active">
+          <div class="col-md-3">
+            <div class="card">
+              <div class="card-img">
+                <img src="https://ns.ddev.site:8443/sites/default/files/2025-05/godisnjica_bljesak_0.jpg" class="img-fluid">
+              </div>
+              <div class="card-img-overlay">
+
+                <a href="https://unsplash.it/1200/768.jpg?image=251" data-toggle="lightbox">
+                  <i class="fa fa-search" aria-hidden="true"></i>
+                </a>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="col-md-3">
+            <div class="card">
+              <div class="card-img">
+                <img src="{{ image_overview }}" class="img-fluid">
+              </div>
+              <div class="card-img-overlay"><i class="fa fa-search" aria-hidden="true"></i></div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="col-md-3">
+            <div class="card">
+              <div class="card-img">
+                <img src="{{ image_overview }}" class="img-fluid">
+              </div>
+              <div class="card-img-overlay"><i class="fa fa-search" aria-hidden="true"></i></div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="col-md-3">
+            <div class="card">
+              <div class="card-img">
+                <img src="{{ image_overview }}" class="img-fluid">
+              </div>
+              <div class="card-img-overlay"><i class="fa fa-search" aria-hidden="true"></i></div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="col-md-3">
+            <div class="card">
+              <div class="card-img">
+                <img src="{{ image_overview }}" class="img-fluid">
+              </div>
+              <div class="card-img-overlay"><i class="fa fa-search" aria-hidden="true"></i>
+</div>
+            </div>
+          </div>
+        </div>
       </div>
-      {% endif %}
-      {{ content.body }}
+      <a class="carousel-control-prev bg-transparent w-aut" href="#recipeCarousel" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      </a>
+      <a class="carousel-control-next bg-transparent w-aut" href="#recipeCarousel" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      </a>
     </div>
   </div>
-</div>
+
+</article>
+
+<script>
+  let items = document.querySelectorAll('.carousel .carousel-item')
+
+items.forEach((el) => {
+    const minPerSlide = 4
+    let next = el.nextElementSibling
+    for (var i=1; i<minPerSlide; i++) {
+        if (!next) {
+            // wrap carousel by using first child
+          next = items[0]
+        }
+        let cloneChild = next.cloneNode(true)
+        el.appendChild(cloneChild.children[0])
+        next = next.nextElementSibling
+    }
+})
+</script>

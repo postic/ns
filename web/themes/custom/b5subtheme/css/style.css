@@ -13000,13 +13000,105 @@ a:hover {
   padding-left: 1.75rem;
 }
 
+.node__submitted {
+  margin-bottom: 1rem;
+}
+.node__submitted .datetime {
+  color: #9f9f9f;
+}
+.node__submitted .datetime::before {
+  font-family: "Font Awesome 6 Free";
+  margin-right: 0.5rem;
+  -webkit-font-smoothing: antialiased;
+  content: "\f017";
+}
+
 figure {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   height: 10rem;
   max-height: 10rem;
+  margin-bottom: 0;
   width: 100%;
+}
+
+.block.block-views.block-views-blocknews-block-2 .views-row h2, .block.block-views.block-views-blocknews-block-2 .views-row .h2 {
+  border-bottom: 0;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+.block.block-views.block-views-blocknews-block-2 .views-row .node__submitted {
+  margin-bottom: 0;
+}
+.block.block-views.block-views-blocknews-block-2 .views-row figure {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 4rem;
+  max-height: 4rem;
+  margin-bottom: 0;
+  width: 100%;
+}
+
+img.image-overview {
+  margin-bottom: 1rem;
+  height: auto;
+  width: 100%;
+}
+
+#recipeCarousel .carousel-item {
+  height: 6rem;
+}
+#recipeCarousel .carousel-item .card, #recipeCarousel .carousel-item .view-media-library .media-library-views-form .media-library-item--grid .views-field-rendered-entity, .view-media-library .media-library-views-form .media-library-item--grid #recipeCarousel .carousel-item .views-field-rendered-entity, #recipeCarousel .carousel-item .media-library-selection .media-library-item.media-library-item--grid, .media-library-selection #recipeCarousel .carousel-item .media-library-item.media-library-item--grid {
+  margin: 0 0.25rem;
+  height: 6rem;
+}
+#recipeCarousel .carousel-item .card .card-img-overlay, #recipeCarousel .carousel-item .view-media-library .media-library-views-form .media-library-item--grid .views-field-rendered-entity .card-img-overlay, .view-media-library .media-library-views-form .media-library-item--grid #recipeCarousel .carousel-item .views-field-rendered-entity .card-img-overlay, #recipeCarousel .carousel-item .media-library-selection .media-library-item.media-library-item--grid .card-img-overlay, .media-library-selection #recipeCarousel .carousel-item .media-library-item.media-library-item--grid .card-img-overlay {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+#recipeCarousel .carousel-item .card .card-img-overlay i, #recipeCarousel .carousel-item .view-media-library .media-library-views-form .media-library-item--grid .views-field-rendered-entity .card-img-overlay i, .view-media-library .media-library-views-form .media-library-item--grid #recipeCarousel .carousel-item .views-field-rendered-entity .card-img-overlay i, #recipeCarousel .carousel-item .media-library-selection .media-library-item.media-library-item--grid .card-img-overlay i, .media-library-selection #recipeCarousel .carousel-item .media-library-item.media-library-item--grid .card-img-overlay i {
+  color: #fff;
+  font-size: 3rem;
+  opacity: 0.9;
+}
+#recipeCarousel .carousel-item .card .card-img-overlay i:hover, #recipeCarousel .carousel-item .view-media-library .media-library-views-form .media-library-item--grid .views-field-rendered-entity .card-img-overlay i:hover, .view-media-library .media-library-views-form .media-library-item--grid #recipeCarousel .carousel-item .views-field-rendered-entity .card-img-overlay i:hover, #recipeCarousel .carousel-item .media-library-selection .media-library-item.media-library-item--grid .card-img-overlay i:hover, .media-library-selection #recipeCarousel .carousel-item .media-library-item.media-library-item--grid .card-img-overlay i:hover {
+  opacity: 0;
+  cursor: pointer;
+}
+
+@media (max-width: 767px) {
+  .carousel-inner .carousel-item > div {
+    display: none;
+  }
+  .carousel-inner .carousel-item > div:first-child {
+    display: block;
+  }
+}
+.carousel-inner .carousel-item.active, .carousel-inner .media-library-view--widget .view-header a.carousel-item.is-active, .media-library-view--widget .view-header .carousel-inner a.carousel-item.is-active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+  display: flex;
+}
+
+/* medium and up screens */
+@media (min-width: 768px) {
+  .carousel-inner .carousel-item-end.active, .carousel-inner .media-library-view--widget .view-header a.carousel-item-end.is-active, .media-library-view--widget .view-header .carousel-inner a.carousel-item-end.is-active,
+  .carousel-inner .carousel-item-next {
+    transform: translateX(25%);
+  }
+  .carousel-inner .carousel-item-start.active, .carousel-inner .media-library-view--widget .view-header a.carousel-item-start.is-active, .media-library-view--widget .view-header .carousel-inner a.carousel-item-start.is-active,
+  .carousel-inner .carousel-item-prev {
+    transform: translateX(-25%);
+  }
+}
+.carousel-inner .carousel-item-end,
+.carousel-inner .carousel-item-start {
+  transform: translateX(0);
 }
 
 body {

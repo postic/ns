@@ -4,8 +4,40 @@
 		"selected_items":
 		[
 			[
+				"fon",
+				"font-size\tproperty"
+			],
+			[
+				"te",
+				"text-align\tproperty"
+			],
+			[
+				"back",
+				"background-color\tproperty"
+			],
+			[
 				"ma",
-				"max-height\tproperty"
+				"margin-bottom\tproperty"
+			],
+			[
+				"li",
+				"line-height\tproperty"
+			],
+			[
+				"m",
+				"margin-right\tproperty"
+			],
+			[
+				"col",
+				"color\tproperty"
+			],
+			[
+				"margin",
+				"margin-bottom\tproperty"
+			],
+			[
+				"marg",
+				"margin-bottom\tproperty"
 			],
 			[
 				"bac",
@@ -16,20 +48,12 @@
 				"cover\tbackground-size"
 			],
 			[
-				"back",
-				"background-size\tproperty"
-			],
-			[
 				"max-",
 				"max-height\tproperty"
 			],
 			[
 				"c",
 				"cover\tobject-fit"
-			],
-			[
-				"m",
-				"margin-top\tproperty"
 			],
 			[
 				"u",
@@ -76,10 +100,6 @@
 				"flex-direction\tproperty"
 			],
 			[
-				"te",
-				"text-decoration\tproperty"
-			],
-			[
 				"backgro",
 				"background-color\tproperty"
 			],
@@ -90,10 +110,6 @@
 			[
 				"ba",
 				"background-color\tproperty"
-			],
-			[
-				"fon",
-				"font-weight\tproperty"
 			],
 			[
 				"im",
@@ -215,24 +231,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "web/themes/custom/b5subtheme/scss/base/_typography.scss",
-			"settings":
-			{
-				"buffer_size": 1180,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "web/themes/custom/b5subtheme/templates/content/node--news--teaser.html.twig",
-			"settings":
-			{
-				"buffer_size": 4589,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -284,12 +282,27 @@
 	[
 		"/var/www/ns",
 		"/var/www/ns/web",
-		"/var/www/ns/web/modules",
-		"/var/www/ns/web/modules/contrib",
-		"/var/www/ns/web/modules/contrib/smart_trim"
+		"/var/www/ns/web/themes",
+		"/var/www/ns/web/themes/contrib",
+		"/var/www/ns/web/themes/contrib/bootstrap5",
+		"/var/www/ns/web/themes/custom"
 	],
 	"file_history":
 	[
+		"/var/www/ns/web/themes/custom/b5subtheme/scss/base/_typography.scss",
+		"/var/www/ns/web/themes/custom/b5subtheme/templates/content/node--news--full.html.twig",
+		"/var/www/ns/web/themes/custom/b5subtheme/b5subtheme.theme",
+		"/var/www/ns/web/themes/custom/b5subtheme/templates/content/node--news--basic.html.twig",
+		"/var/www/ns/web/themes/custom/b5subtheme/templates/content/node.html.twig",
+		"/var/www/novisad/sites/all/modules/utility/utility.module",
+		"/var/www/ns/web/themes/custom/b5subtheme/scss/abstracts/_variables.scss",
+		"/var/www/novisad/sites/all/themes/zen/zen/template.php",
+		"/var/www/laca/web/themes/drupal_starter/drupal_starter.theme",
+		"/var/www/ns/web/themes/custom/b5subtheme/templates/content/node--news--teaser.html.twig",
+		"/var/www/novisad/sites/all/themes/zen/zen/node-news.tpl.php",
+		"/var/www/novisad/sites/all/themes/novisad/template.php",
+		"/var/www/novisad/sites/all/themes/novisad/page.tpl.php",
+		"/var/www/ns/web/themes/custom/b5subtheme/scss/base/_reset.scss",
 		"/var/www/ns/web/modules/contrib/smart_trim/README.md",
 		"/var/www/laca/web/themes/drupal_starter/templates/node/node--news--teaser.html.twig",
 		"/var/www/ns/.gitignore",
@@ -301,9 +314,7 @@
 		"/var/www/ns/web/themes/custom/b5subtheme/scss/style.scss",
 		"/var/www/ns/web/themes/custom/b5subtheme/scss/layout/_body.scss",
 		"/var/www/ns/web/themes/custom/b5subtheme/package.json",
-		"/var/www/ns/web/themes/custom/b5subtheme/scss/abstracts/_variables.scss",
 		"/var/www/ns/web/themes/custom/b5subtheme/scss/layout/_sidebar.scss",
-		"/var/www/ns/web/themes/custom/b5subtheme/scss/base/_typography.scss",
 		"/var/www/ns/web/themes/custom/b5subtheme/scss/layout/_footer.scss",
 		"/var/www/ns/web/themes/custom/b5subtheme/templates/layout/page.html.twig",
 		"/var/www/ns/web/themes/custom/b5subtheme/scss/layout/_header.scss",
@@ -312,7 +323,6 @@
 		"/var/www/ns/web/themes/contrib/bootstrap5/css/ck5style.css",
 		"/var/www/ns/web/modules/contrib/views_slideshow/README.md",
 		"/var/www/ns/web/themes/custom/b5subtheme/scss/abstracts/_utilities.scss",
-		"/var/www/ns/web/themes/custom/b5subtheme/scss/base/_reset.scss",
 		"/var/www/ns/web/themes/custom/b5subtheme/scss/abstracts/_mixins.scss",
 		"/var/www/ns/web/themes/contrib/bootstrap5/templates/layout/page.html.twig",
 		"/var/www/ns/web/themes/custom/b5subtheme/scss/abstracts/_index.scss",
@@ -406,18 +416,7 @@
 		"/var/www/ns/web/themes/custom/novisad/templates/dataset/table.html.twig",
 		"/var/www/ns/web/themes/custom/novisad/templates/dataset/forum-list.html.twig",
 		"/var/www/ns/web/themes/custom/novisad/templates/content/page-title.html.twig",
-		"/var/www/ns/web/themes/custom/novisad/templates/content/node.html.twig",
-		"/var/www/ns/web/themes/custom/novisad/templates/content/node--forum--full.html.twig",
-		"/var/www/ns/web/themes/custom/novisad/templates/content/media.html.twig",
-		"/var/www/ns/web/themes/custom/novisad/templates/content/comment.html.twig",
-		"/var/www/ns/web/themes/custom/novisad/templates/block/block--system-menu-block.html.twig",
-		"/var/www/ns/web/themes/custom/novisad/templates/block/block--system-main-block.html.twig",
-		"/var/www/ns/web/themes/custom/novisad/templates/block/block--system-branding-block.html.twig",
-		"/var/www/ns/web/themes/custom/novisad/templates/navigation/dropbutton-wrapper.html.twig",
-		"/var/www/ns/web/themes/custom/novisad/templates/navigation/pager.html.twig",
-		"/var/www/ns/web/themes/custom/novisad/templates/navigation/links.html.twig",
-		"/var/www/ns/web/themes/custom/novisad/templates/navigation/links--dropbutton.html.twig",
-		"/var/www/ns/web/themes/custom/novisad/templates/user/user.html.twig"
+		"/var/www/ns/web/themes/custom/novisad/templates/content/node.html.twig"
 	],
 	"find":
 	{
@@ -428,6 +427,9 @@
 		"height": 108.0,
 		"where_history":
 		[
+			"/var/www/ns/web/themes/contrib/bootstrap5",
+			"/var/www/ns/web/themes/custom/b5subtheme",
+			"/var/www/novisad/sites/all/themes",
 			"/var/www/ns/web/themes/custom/b5subtheme/scss",
 			"/var/www/ns/web/themes/custom/b5subtheme/scss/layout",
 			"/var/www/ns/web/themes/custom/b5subtheme",
@@ -439,6 +441,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"lightbox",
+			"Slide 2",
+			"template_preprocess_node",
+			"carousel",
+			"promo",
+			"before",
 			"feed-list-item",
 			"bootstr",
 			"$color-white-dark",
@@ -458,6 +466,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"<i class=\"fa fa-search\" aria-hidden=\"true\"></i>"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -468,69 +477,8 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "web/themes/custom/b5subtheme/scss/base/_typography.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1180,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1127,
-								1127
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/SCSS.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 879.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "web/themes/custom/b5subtheme/templates/content/node--news--teaser.html.twig",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4589,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4561,
-								4561
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1387.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -573,7 +521,7 @@
 	"project": "ns.sublime-project",
 	"replace":
 	{
-		"height": 50.0
+		"height": 75.0
 	},
 	"save_all_on_build": true,
 	"select_file":

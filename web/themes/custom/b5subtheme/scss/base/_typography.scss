@@ -68,11 +68,120 @@ a:hover {
   }
 }
 
+.node__submitted {
+  margin-bottom: 1rem;
+  .datetime {
+    color: $color-datetime;
+    &::before {
+      font-family: 'Font Awesome 6 Free';
+      margin-right: 0.5rem;
+      -webkit-font-smoothing: antialiased;
+      content: '\f017';
+    }
+  }
+}
+
 figure {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   height: 10rem;
   max-height: 10rem;
+  margin-bottom: 0;
   width: 100%;
+}
+
+.block {
+  &.block-views {
+    &.block-views-blocknews-block-2 {
+      .views-row {
+        h2 {
+          border-bottom: 0;
+          font-size: 1rem;
+          line-height: 1.25rem;
+          margin-bottom: 0;
+          text-transform: uppercase;
+        }
+        .node__submitted {
+          margin-bottom: 0;
+        }
+
+        figure {
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center center;
+          height: 4rem;
+          max-height: 4rem;
+          margin-bottom: 0;
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+img.image-overview {
+  margin-bottom: 1rem;
+  height: auto;
+  width: 100%;
+}
+
+
+#recipeCarousel {
+  .carousel-item {
+    height: 6rem;
+    .card {
+      margin: 0 0.25rem;
+      height: 6rem;
+      .card-img-overlay {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        i {
+          color: $white;
+          font-size: 3rem;
+          opacity: 0.9;
+          &:hover {
+            opacity: 0;
+            cursor: pointer;
+          }
+        }
+      }
+
+    }
+  }
+}
+
+@media (max-width: 767px) {
+    .carousel-inner .carousel-item > div {
+        display: none;
+    }
+    .carousel-inner .carousel-item > div:first-child {
+        display: block;
+    }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+}
+
+/* medium and up screens */
+@media (min-width: 768px) {
+
+    .carousel-inner .carousel-item-end.active,
+    .carousel-inner .carousel-item-next {
+      transform: translateX(25%);
+    }
+
+    .carousel-inner .carousel-item-start.active,
+    .carousel-inner .carousel-item-prev {
+      transform: translateX(-25%);
+    }
+}
+
+.carousel-inner .carousel-item-end,
+.carousel-inner .carousel-item-start {
+  transform: translateX(0);
 }

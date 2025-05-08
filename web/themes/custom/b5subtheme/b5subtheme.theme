@@ -4,3 +4,50 @@
  * @file
  * B5 subtheme theme file.
  */
+
+use Drupal\file\Entity\File;
+
+/**
+ * Implements hook_preprocess_HOOK().
+ */
+function b5subtheme_preprocess_node(&$variables) {
+
+  if ($node = \Drupal::routeMatch()->getParameter('node')) {
+
+    if ($node->getType() === 'news') {
+
+      if (!$node->hasField('field_images')) {
+        return;
+      }
+
+      foreach ($node->get('field_images')->getValue() as $key => $value) {
+
+        if($value['target_id']){
+          $image = $value['target_id'];
+          $image = \Drupal::entityTypeManager()->getStorage('file')->load($value['target_id'])->getFileUri();
+          $image_url = \Drupal::service('file_url_generator')->generateAbsoluteString($image);
+          $variables['image_overview'] = $image_url;
+        }
+
+      }
+      /*
+      $current_path = \Drupal::service('path.current')->getPath();
+      $path_alias = \Drupal::service('path.alias_manager')->getAliasByPath($current_path);
+
+      $variables['link_overview'] = $path_alias . '#overview';
+      $variables['link_documents'] = $path_alias . '#documents';
+      $variables['link_lots'] = $path_alias . '#lots';
+
+      if (isset($variables['node']) && is_object($variables['node']) &&
+        $variables['node']->hasField('field_images')) {
+
+        $variables['start_date_formatted'] = $variables['node']->field_date_range->start_date->format('d M Y');
+        $variables['end_date_formatted'] = $variables['node']->field_date_range->end_date->format('d M Y');
+      }
+      // Unset display if doesn't have value.
+      if (empty($node->get('field_attachment')->getValue())) {
+        unset($variables['content']['field_attachment']);
+      }*/
+    }
+  }
+}
