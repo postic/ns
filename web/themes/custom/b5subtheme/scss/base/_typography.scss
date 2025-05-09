@@ -59,15 +59,6 @@ a:hover {
   }
 }
 
-.view-documents {
-  &.view-display-id-block_1 {
-    .views-row {
-      background: url(../images/i-docs.png) no-repeat 0 50%;
-      padding-left: 1.75rem;
-    }
-  }
-}
-
 .node__submitted {
   margin-bottom: 1rem;
   .datetime {
@@ -91,10 +82,12 @@ figure {
   width: 100%;
   &.no-img {
     background-image: url('../images/i-no_image.png') !important;
+    background-size: contain !important;
     opacity: 0.1;
   }
 }
 
+// news
 .block {
   &.block-views {
     &.block-views-blocknews-block-2 {
@@ -105,9 +98,6 @@ figure {
           line-height: 1.25rem;
           margin-bottom: 0;
           text-transform: uppercase;
-        }
-        .node__submitted {
-          margin-bottom: 0;
         }
 
         figure {
@@ -124,6 +114,93 @@ figure {
   }
 }
 
+.view {
+  &.view-news {
+    &.view-id-news {
+      &.view-display-id-page_1 {
+        .view-content {
+          .views-row {
+            margin: 0;
+            padding: 1rem 0;
+            h2 {
+              border: 0;
+              font-size: 1.2rem;
+              margin: 0;
+              padding: 0;
+            }
+            .node__submitted {
+              margin-bottom: 0.65rem
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// quicktabs
+.quicktabs-tabpage {
+  .view {
+    .views-row {
+      background: url(../images/i-konkurs.png) no-repeat 0 50%;
+      padding: 0.625rem 0 0.625rem 2rem;
+      h2 {
+        border-bottom: 0;
+        font-size: 1rem;
+        line-height: 1.25rem;
+        margin-bottom: 0;
+        text-transform: uppercase;
+      }
+    }
+  }
+}
+
+// documents
+.block {
+  &.block-views {
+    &.block-views-blockdocuments-block-1 {
+      .views-row {
+        background: url(../images/i-docs.png) no-repeat 0 50%;
+        padding: 0.625rem 0 0.625rem 2rem;
+        h2 {
+          border-bottom: 0;
+          font-size: 1rem;
+          line-height: 1.25rem;
+          margin-bottom: 0;
+          text-transform: uppercase;
+        }
+      }
+    }
+  }
+}
+
+.view {
+  &.view-documents {
+    &.view-id-documents {
+      &.view-display-id-page_1 {
+        .view-content {
+          .views-row {
+            background: url(../images/i-docs.png) no-repeat 0 50%;
+            padding-left: 2rem;
+            h2 {
+              border: 0;
+              font-size: 1.2rem;
+              margin: 0;
+              padding: 0;
+            }
+            .node__submitted {
+              margin-bottom: 0
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.node__submitted {
+  margin-bottom: 0;
+}
 
 img.image-overview {
   margin-bottom: 1rem;
@@ -152,7 +229,6 @@ img.image-overview {
           }
         }
       }
-
     }
   }
 }

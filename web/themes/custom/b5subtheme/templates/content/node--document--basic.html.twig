@@ -80,22 +80,17 @@
 {{ attach_library('bootstrap5/node') }}
 
 <div class="row">
-  <div class='col-md-4'>
-    {% set image_class = ( node.field_images.0 ) ? 'img' : 'no-img' %}
-    <figure class={{ image_class }} style="background-image: url({{ node.field_images.0|file_url }});"></figure>
-  </div>
-  <div class='col-md-8'>
+  <div class='col-md-12'>
     {% if label and not page %}
     <h2{{ title_attributes }}>
       <a href="{{ url }}" rel="bookmark">{{ label }}</a>
     </h2>
     {% endif %}
-
     {% if display_submitted %}
     <div{{ author_attributes.addClass('node__submitted') }}>
       {{ date }}
+      {{ metadata }}
     </div>
     {% endif %}
-    {{ content.body }}
   </div>
 </div>
