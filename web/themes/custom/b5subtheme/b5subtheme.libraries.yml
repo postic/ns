@@ -2,3 +2,13 @@ global-styling:
   css:
     theme:
       css/style.css: {}
+
+custom-script:
+  js:
+    js/script.js: {}
+
+bs5-lightbox:
+  js:
+    node_modules/bs5-lightbox/dist/index.js: {}
+  dependencies:
+    - bootstrap5/bootstrap5-js-latest

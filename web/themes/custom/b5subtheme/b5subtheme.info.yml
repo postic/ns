@@ -5,6 +5,8 @@ core_version_requirement: '^10.1 || ^11.0'
 'base theme': bootstrap5
 libraries:
   - b5subtheme/global-styling
+  - b5subtheme/custom-script
+  - b5subtheme/bs5-lightbox
 ckeditor_stylesheets:
   - css/style.css
 ckeditor5-stylesheets:
@@ -30,3 +32,4 @@ regions:
 
 libraries-override:
   bootstrap5/global-styling: false
+

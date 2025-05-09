@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"c",
+				"custom-scripts"
+			],
+			[
 				"fon",
 				"font-size\tproperty"
 			],
@@ -50,10 +54,6 @@
 			[
 				"max-",
 				"max-height\tproperty"
-			],
-			[
-				"c",
-				"cover\tobject-fit"
 			],
 			[
 				"u",
@@ -231,6 +231,15 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "web/themes/custom/b5subtheme/templates/content/node--news--full.html.twig",
+			"settings":
+			{
+				"buffer_size": 7435,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -284,11 +293,17 @@
 		"/var/www/ns/web",
 		"/var/www/ns/web/themes",
 		"/var/www/ns/web/themes/contrib",
-		"/var/www/ns/web/themes/contrib/bootstrap5",
-		"/var/www/ns/web/themes/custom"
+		"/var/www/ns/web/themes/custom",
+		"/var/www/ns/web/themes/custom/b5subtheme",
+		"/var/www/ns/web/themes/custom/b5subtheme/templates",
+		"/var/www/ns/web/themes/custom/b5subtheme/templates/content"
 	],
 	"file_history":
 	[
+		"/var/www/ns/web/themes/custom/b5subtheme/js/script.js",
+		"/var/www/ns/web/themes/custom/b5subtheme/b5subtheme.info.yml",
+		"/var/www/ns/web/themes/custom/b5subtheme/b5subtheme.libraries.yml",
+		"/var/www/ns/web/themes/contrib/bootstrap5/js/nav-tabs.js",
 		"/var/www/ns/web/themes/custom/b5subtheme/scss/base/_typography.scss",
 		"/var/www/ns/web/themes/custom/b5subtheme/templates/content/node--news--full.html.twig",
 		"/var/www/ns/web/themes/custom/b5subtheme/b5subtheme.theme",
@@ -308,8 +323,6 @@
 		"/var/www/ns/.gitignore",
 		"/var/www/ns/composer.json",
 		"/var/www/ns/composer.lock",
-		"/var/www/ns/web/themes/custom/b5subtheme/b5subtheme.info.yml",
-		"/var/www/ns/web/themes/custom/b5subtheme/b5subtheme.libraries.yml",
 		"/var/www/ns/web/modules/contrib/fontawesome/README.md",
 		"/var/www/ns/web/themes/custom/b5subtheme/scss/style.scss",
 		"/var/www/ns/web/themes/custom/b5subtheme/scss/layout/_body.scss",
@@ -414,13 +427,11 @@
 		"/var/www/ns/web/themes/custom/novisad/templates/field/field.html.twig",
 		"/var/www/ns/web/themes/custom/novisad/templates/field/field--comment.html.twig",
 		"/var/www/ns/web/themes/custom/novisad/templates/dataset/table.html.twig",
-		"/var/www/ns/web/themes/custom/novisad/templates/dataset/forum-list.html.twig",
-		"/var/www/ns/web/themes/custom/novisad/templates/content/page-title.html.twig",
-		"/var/www/ns/web/themes/custom/novisad/templates/content/node.html.twig"
+		"/var/www/ns/web/themes/custom/novisad/templates/dataset/forum-list.html.twig"
 	],
 	"find":
 	{
-		"height": 42.0
+		"height": 27.0
 	},
 	"find_in_files":
 	{
@@ -477,8 +488,40 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "web/themes/custom/b5subtheme/templates/content/node--news--full.html.twig",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7435,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6350,
+								6350
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"word_wrap": false
+						},
+						"translation.x": 355.0,
+						"translation.y": 1689.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -521,7 +564,7 @@
 	"project": "ns.sublime-project",
 	"replace":
 	{
-		"height": 75.0
+		"height": 50.0
 	},
 	"save_all_on_build": true,
 	"select_file":

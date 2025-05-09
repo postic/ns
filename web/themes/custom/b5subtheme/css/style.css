@@ -13022,6 +13022,10 @@ figure {
   margin-bottom: 0;
   width: 100%;
 }
+figure.no-img {
+  background-image: url("../images/i-no_image.png") !important;
+  opacity: 0.1;
+}
 
 .block.block-views.block-views-blocknews-block-2 .views-row h2, .block.block-views.block-views-blocknews-block-2 .views-row .h2 {
   border-bottom: 0;
