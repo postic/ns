@@ -1,0 +1,88 @@
+.pager {
+
+  .pagination {
+    justify-content: right;
+  }
+
+  .pagination>li>a {
+    background-color: $color-grey;
+    color: $color-primary;
+  }
+
+
+  .pagination>li>a:hover {
+    text-decoration: none;
+  }
+  .pagination>li>a:hover {
+    background-color: $color-green;
+    color: $white;
+  }
+  .pagination>.active>a {
+    background-color: $color-green;
+    color: $white;
+  }
+
+
+  .pagination>li:first-child>a, .pagination>li:first-child>span {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+
+  .pagination>li:last-child>a, .pagination>li:last-child>span {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+
+  li.page-item {
+    margin: 0 0 0 0.5rem;
+
+    &.pager__item--first {
+      a.page-link {
+        &::after {
+          font-family: 'Font Awesome 6 Free';
+          font-weight: 600;
+          content: '\f100';
+        }
+      }
+    }
+
+    &.pager__item--previous {
+      a.page-link {
+        &::after {
+          font-family: 'Font Awesome 6 Free';
+          font-weight: 600;
+          content: '\f104';
+        }
+      }
+    }
+
+    &.pager__item--next {
+      a.page-link {
+        &::after {
+          font-family: 'Font Awesome 6 Free';
+          font-weight: 600;
+          content: '\f105';
+        }
+      }
+    }
+
+    &.pager__item--last {
+      a.page-link {
+        &::after {
+          font-family: 'Font Awesome 6 Free';
+          font-weight: 600;
+          content: '\f101';
+        }
+      }
+    }
+
+    a.page-link {
+      border: 0;
+      padding: 0 0.5rem;
+      span {
+        display: none;
+      }
+    }
+  }
+
+}

@@ -13422,3 +13422,60 @@ footer .wrapper-footer .region-disclaimer nav ul.nav .nav-item .nav-link, footer
   padding: 4.7rem 0.7rem;
   padding-bottom: 4.7rem;
 }
+
+.pager .pagination {
+  justify-content: right;
+}
+.pager .pagination > li > a {
+  background-color: #dedede;
+  color: #0988b7;
+}
+.pager .pagination > li > a:hover {
+  text-decoration: none;
+}
+.pager .pagination > li > a:hover {
+  background-color: #A6BC33;
+  color: #fff;
+}
+.pager .pagination > .active > a, .pager .media-library-view--widget .view-header .pagination > a.is-active > a, .media-library-view--widget .view-header .pager .pagination > a.is-active > a {
+  background-color: #A6BC33;
+  color: #fff;
+}
+.pager .pagination > li:first-child > a, .pager .pagination > li:first-child > span {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.pager .pagination > li:last-child > a, .pager .pagination > li:last-child > span {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.pager li.page-item {
+  margin: 0 0 0 0.5rem;
+}
+.pager li.page-item.pager__item--first a.page-link::after {
+  font-family: "Font Awesome 6 Free";
+  font-weight: 600;
+  content: "\f100";
+}
+.pager li.page-item.pager__item--previous a.page-link::after {
+  font-family: "Font Awesome 6 Free";
+  font-weight: 600;
+  content: "\f104";
+}
+.pager li.page-item.pager__item--next a.page-link::after {
+  font-family: "Font Awesome 6 Free";
+  font-weight: 600;
+  content: "\f105";
+}
+.pager li.page-item.pager__item--last a.page-link::after {
+  font-family: "Font Awesome 6 Free";
+  font-weight: 600;
+  content: "\f101";
+}
+.pager li.page-item a.page-link {
+  border: 0;
+  padding: 0 0.5rem;
+}
+.pager li.page-item a.page-link span {
+  display: none;
+}
