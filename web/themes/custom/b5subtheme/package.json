@@ -15,6 +15,7 @@
     "sass-loader": "^12.6.0"
   },
   "dependencies": {
-    "bs5-lightbox": "^1.8.5"
+    "bs5-lightbox": "^1.8.5",
+    "masonry-layout": "^4.2.2"
   }
 }

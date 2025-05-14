@@ -13255,6 +13255,10 @@ ol.breadcrumb li a:hover {
     padding-left: 0 !important;
   }
 }
+.order-1 .region.region-content-bottom .block {
+  width: calc(33.33% - 10px) !important;
+}
+
 .header {
   border-top: 3rem solid #c2185b;
   background-color: #0988b7;

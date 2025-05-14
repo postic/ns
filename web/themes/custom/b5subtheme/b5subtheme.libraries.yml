@@ -12,3 +12,7 @@ bs5-lightbox:
     node_modules/bs5-lightbox/dist/index.js: {}
   dependencies:
     - bootstrap5/bootstrap5-js-latest
+
+masonry-layout:
+  js:
+    node_modules/masonry-layout/dist/masonry.pkgd.min.js: {}

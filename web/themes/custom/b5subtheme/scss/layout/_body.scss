@@ -134,3 +134,12 @@ ol.breadcrumb {
 }
 
 
+.order-1 {
+  .region {
+    &.region-content-bottom {
+      .block {
+        width: calc(33.33% - 10px) !important;
+      }
+    }
+  }
+}

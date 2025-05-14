@@ -7,6 +7,7 @@ libraries:
   - b5subtheme/global-styling
   - b5subtheme/custom-script
   - b5subtheme/bs5-lightbox
+  - b5subtheme/masonry-layout
 ckeditor_stylesheets:
   - css/style.css
 ckeditor5-stylesheets:
