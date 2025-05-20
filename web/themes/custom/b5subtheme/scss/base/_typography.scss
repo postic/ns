@@ -11,11 +11,16 @@
 a {
   color: $color-primary;
   text-decoration: none;
-  //text-transform: uppercase;
 }
 
 a:hover {
   text-decoration: underline;
+}
+
+@media (min-width: 1200px) {
+  h2, .h2 {
+    font-size: 1.8rem;
+  }
 }
 
 
@@ -37,26 +42,6 @@ a:hover {
     }
   }
 
-  .more-link {
-    margin-top: 1rem;
-    a::after {
-      font-family: 'Font Awesome 6 Free';
-      font-weight: 900;
-      color: $color-green;
-      content: '\f152';
-      margin-left: .5rem;
-    }
-    a:hover {
-      text-decoration: none;
-    }
-  }
-
-}
-
-@media (min-width: 1200px) {
-  h2, .h2 {
-    font-size: 1.8rem;
-  }
 }
 
 .node__submitted {
@@ -88,51 +73,64 @@ figure {
 }
 
 // news
-.block {
-  &.block-views {
-    &.block-views-blocknews-block-2 {
-      .views-row {
-        h2 {
-          border-bottom: 0;
-          font-size: 1rem;
-          line-height: 1.25rem;
-          margin-bottom: 0;
-          text-transform: uppercase;
-        }
+.block.block-views.block-views-blocknews-block-2 {
+  .views-row {
+    h2 {
+      border-bottom: 0;
+      font-size: 1rem;
+      line-height: 1.25rem;
+      margin-bottom: 0;
+      text-transform: uppercase;
+    }
 
-        figure {
-          background-repeat: no-repeat;
-          background-size: cover;
-          background-position: center center;
-          height: 4rem;
-          max-height: 4rem;
-          margin-bottom: 0;
-          width: 100%;
-        }
+    figure {
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+      height: 4rem;
+      max-height: 4rem;
+      margin-bottom: 0;
+      width: 100%;
+    }
+  }
+}
+
+.view.view-news.view-id-news.view-display-id-page_1,
+.view.view-news.view-id-news.view-display-id-page_2,
+.view.view-news.view-id-news.view-display-id-page_3 {
+  .view-content {
+    margin: 2rem 0;
+    .views-row {
+      margin: 0;
+      padding: 1rem 0;
+      h2 {
+        border: 0;
+        font-size: 1.2rem;
+        margin: 0;
+        padding: 0;
+      }
+      .node__submitted {
+        margin-bottom: 0.65rem
       }
     }
   }
 }
 
-.view {
-  &.view-news {
-    &.view-id-news {
-      &.view-display-id-page_1 {
-        .view-content {
-          .views-row {
-            margin: 0;
-            padding: 1rem 0;
-            h2 {
-              border: 0;
-              font-size: 1.2rem;
-              margin: 0;
-              padding: 0;
-            }
-            .node__submitted {
-              margin-bottom: 0.65rem
-            }
-          }
-        }
+// clanovi gradskog veca
+.view.view-clanovi-gradskog-veca.view-id-clanovi_gradskog_veca.view-display-id-page_1 {
+  .view-content {
+    margin: 2rem 0;
+    .views-row {
+      margin: 0;
+      padding: 1rem 0;
+      h2 {
+        border: 0;
+        font-size: 1.2rem;
+        margin: 0;
+        padding: 0;
+      }
+      .node__submitted {
+        margin-bottom: 0.65rem
       }
     }
   }
@@ -156,113 +154,55 @@ figure {
 }
 
 // documents
-.block {
-  &.block-views {
-    &.block-views-blockdocuments-block-1 {
-      .views-row {
-        background: url(../images/i-docs.png) no-repeat 0 50%;
-        padding: 0.625rem 0 0.625rem 2rem;
-        h2 {
-          border-bottom: 0;
-          font-size: 1rem;
-          line-height: 1.25rem;
-          margin-bottom: 0;
-          text-transform: uppercase;
-        }
+.block.block-views.block-views-blockdocuments-block-1 {
+  .views-row {
+    background: url(../images/i-docs.png) no-repeat 0 50%;
+    padding: 0.625rem 0 0.625rem 2rem;
+    h2 {
+      border-bottom: 0;
+      font-size: 1rem;
+      line-height: 1.25rem;
+      margin-bottom: 0;
+      text-transform: uppercase;
+    }
+  }
+}
+
+.view.view-documents.view-id-documents.view-display-id-page_1,
+.view.view-documents.view-id-documents.view-display-id-page_2 {
+  .view-content {
+    margin: 2rem 0;
+    .views-row {
+      //background: url(../images/i-docs.png) no-repeat 0 50%;
+      padding: 1rem 0;
+      h2 {
+        border: 0;
+        font-size: 1.2rem;
+        margin: 0;
+        padding: 0;
+      }
+      .node__submitted {
+        margin-bottom: 0
       }
     }
   }
 }
 
-.view {
-  &.view-documents {
-    &.view-id-documents {
-      &.view-display-id-page_1 {
-        .view-content {
-          .views-row {
-            background: url(../images/i-docs.png) no-repeat 0 50%;
-            padding-left: 2rem;
-            h2 {
-              border: 0;
-              font-size: 1.2rem;
-              margin: 0;
-              padding: 0;
-            }
-            .node__submitted {
-              margin-bottom: 0
-            }
-          }
-        }
+// city administration
+.view.view-administration.view-id-administration.view-display-id-page_1 {
+  .view-content {
+    margin: 2rem 0;
+    .views-row {
+      padding: 1rem 0;
+      h2 {
+        border: 0;
+        font-size: 1.2rem;
+        margin: 0;
+        padding: 0;
+      }
+      .node__submitted {
+        margin-bottom: 0
       }
     }
   }
-}
-
-.node__submitted {
-  margin-bottom: 0;
-}
-
-img.image-overview {
-  margin-bottom: 1rem;
-  height: auto;
-  width: 100%;
-}
-
-
-#recipeCarousel {
-  .carousel-item {
-    height: 6rem;
-    .card {
-      margin: 0 0.25rem;
-      height: 6rem;
-      .card-img-overlay {
-        align-items: center;
-        display: flex;
-        justify-content: center;
-        i {
-          color: $white;
-          font-size: 3rem;
-          opacity: 0.9;
-          &:hover {
-            opacity: 0;
-            cursor: pointer;
-          }
-        }
-      }
-    }
-  }
-}
-
-@media (max-width: 767px) {
-  .carousel-inner .carousel-item > div {
-    display: none;
-  }
-  .carousel-inner .carousel-item > div:first-child {
-    display: block;
-  }
-}
-
-.carousel-inner .carousel-item.active,
-.carousel-inner .carousel-item-next,
-.carousel-inner .carousel-item-prev {
-  display: flex;
-}
-
-/* medium and up screens */
-@media (min-width: 768px) {
-
-  .carousel-inner .carousel-item-end.active,
-  .carousel-inner .carousel-item-next {
-    transform: translateX(25%);
-  }
-
-  .carousel-inner .carousel-item-start.active,
-  .carousel-inner .carousel-item-prev {
-    transform: translateX(-25%);
-  }
-}
-
-.carousel-inner .carousel-item-end,
-.carousel-inner .carousel-item-start {
-  transform: translateX(0);
 }

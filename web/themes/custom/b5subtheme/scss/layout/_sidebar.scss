@@ -36,6 +36,23 @@
 
     }
 
+    .view-content {
+      .views-row {
+        .row {
+          h2 {
+            border: 0;
+            font-size: 1rem;
+            padding: 0;
+            a {
+              color: $black;
+              text-transform: none;
+            }
+          }
+        }
+      }
+    }
+
+
   }
 
   &.region-sidebar-second {

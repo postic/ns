@@ -1,0 +1,65 @@
+// breadcrumb
+ol.breadcrumb {
+  li {
+    a {
+      color: $dark;
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+// node submitted
+.node__submitted {
+  margin-bottom: 0;
+}
+
+// image overview
+img.image-overview {
+  margin-bottom: 1rem;
+  height: auto;
+  width: 100%;
+}
+
+// more link
+.more-link {
+  margin-top: 0.5rem;
+  a::after {
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 900;
+    color: $color-green;
+    content: '\f152';
+    margin-left: .5rem;
+  }
+  a:hover {
+    text-decoration: none;
+  }
+}
+
+// attachment
+.document-wrapper {
+  background-color: $color-grey-light;
+  border: 1px solid $color-grey;
+  color: $color-green;
+  margin: 1rem 0;
+  padding: 0.5rem 1rem;
+
+  .document-item {
+    align-items: center;
+    display: flex;
+    margin: 0.5rem 0;
+    i {
+      font-size: 1.5rem;
+      margin-right: 0.5rem;
+    }
+  }
+}
+
+// node
+article.node {
+  .node__submitted {
+    margin-bottom: 1rem;
+  }
+}

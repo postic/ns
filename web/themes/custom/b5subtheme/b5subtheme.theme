@@ -31,7 +31,95 @@ function b5subtheme_preprocess_node(&$variables) {
 
       }
 
+      if (!$node->hasField('field_files')) {
+        return;
+      }
+
+      foreach ($node->get('field_files')->getValue() as $key => $value) {
+        if($value['target_id'] && $value['display']){
+          $file = $value['target_id'];
+          $file = \Drupal::entityTypeManager()->getStorage('file')->load($value['target_id'])->getFileUri();
+          $file_url = \Drupal::service('file_url_generator')->generateAbsoluteString($file);
+          $variables['variable_files'][$file_url] = $value;
+        }
+
+      }
+
     }
+
+    if ($node->getType() === 'document') {
+
+      if (!$node->hasField('field_files')) {
+        return;
+      }
+
+      foreach ($node->get('field_files')->getValue() as $key => $value) {
+        if($value['target_id'] && $value['display']){
+          $file = $value['target_id'];
+          $file = \Drupal::entityTypeManager()->getStorage('file')->load($value['target_id'])->getFileUri();
+          $file_url = \Drupal::service('file_url_generator')->generateAbsoluteString($file);
+          $variables['variable_files'][$file_url] = $value;
+        }
+
+      }
+
+    }
+
+
+
+
+    if ($node->getType() === 'dokument_gradske_uprave') {
+
+      if (!$node->hasField('field_files')) {
+        return;
+      }
+
+      foreach ($node->get('field_files')->getValue() as $key => $value) {
+        if($value['target_id'] && $value['display']){
+          $file = $value['target_id'];
+          $file = \Drupal::entityTypeManager()->getStorage('file')->load($value['target_id'])->getFileUri();
+          $file_url = \Drupal::service('file_url_generator')->generateAbsoluteString($file);
+          $variables['variable_files'][$file_url] = $value;
+        }
+
+      }
+
+    }
+
+
+    if ($node->getType() === 'clan_gradskog_veca') {
+
+      if (!$node->hasField('field_images')) {
+        return;
+      }
+
+      foreach ($node->get('field_images')->getValue() as $key => $value) {
+
+        if($value['target_id']){
+          $image = $value['target_id'];
+          $image = \Drupal::entityTypeManager()->getStorage('file')->load($value['target_id'])->getFileUri();
+          $image_url = \Drupal::service('file_url_generator')->generateAbsoluteString($image);
+          $variables['variable_images'][] = $image_url;
+        }
+
+      }
+
+      if (!$node->hasField('field_files')) {
+        return;
+      }
+
+      foreach ($node->get('field_files')->getValue() as $key => $value) {
+        if($value['target_id'] && $value['display']){
+          $file = $value['target_id'];
+          $file = \Drupal::entityTypeManager()->getStorage('file')->load($value['target_id'])->getFileUri();
+          $file_url = \Drupal::service('file_url_generator')->generateAbsoluteString($file);
+          $variables['variable_files'][$file_url] = $value;
+        }
+
+      }
+
+    }
+
 
   }
 

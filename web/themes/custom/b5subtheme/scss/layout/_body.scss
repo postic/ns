@@ -15,19 +15,6 @@ body {
   }
 }
 
-ol.breadcrumb {
-  //margin-top: 1rem;
-  li {
-    a {
-      color: $dark;
-      text-decoration: none;
-      &:hover {
-        text-decoration: underline;
-      }
-    }
-  }
-}
-
 .region-sidebar-first,
 .region-sidebar-second,
 .region-footer,

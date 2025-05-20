@@ -108,57 +108,8 @@
       </div>
     {% endif %}
 
-    {% if variable_images %}
-      <img src="{{ variable_images.0 }}" class="image-overview"/>
-    {% endif %}
-
     {{ content.body }}
-
-    {% if variable_images %}
-      <div class="row mx-auto my-auto justify-content-center">
-        <div id="recipeCarousel" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-inner" role="listbox">
-            {% for key, item in variable_images %}
-
-            {% set active_class = ( key == '0' ) ? 'active' : '' %}
-
-            <div class="carousel-item {{ active_class }}">
-              <div class="col-md-3">
-                <div class="card">
-                  <div class="card-img">
-                    <img src="{{ item }}" class="img-fluid">
-                  </div>
-                  <div class="card-img-overlay">
-                    <a href="{{ item }}" data-toggle="lightbox" data-size="lg" data-gallery="gallery">
-                      <i class="fa fa-search" aria-hidden="true"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            {% endfor %}
-          </div>
-        </div>
-      </div>
-    {% endif %}
 
   </div>
 
 </article>
-
-<script>
-  let items = document.querySelectorAll('.carousel .carousel-item')
-  items.forEach((el) => {
-    const minPerSlide = 4
-    let next = el.nextElementSibling
-    for (var i=1; i<minPerSlide; i++) {
-      if (!next) {
-        // wrap carousel by using first child
-        next = items[0]
-      }
-      let cloneChild = next.cloneNode(true)
-      el.appendChild(cloneChild.children[0])
-      next = next.nextElementSibling
-    }
-  })
-</script>
