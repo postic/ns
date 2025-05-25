@@ -65,7 +65,23 @@ function b5subtheme_preprocess_node(&$variables) {
 
     }
 
+    if ($node->getType() === 'page') {
 
+      if (!$node->hasField('field_files')) {
+        return;
+      }
+
+      foreach ($node->get('field_files')->getValue() as $key => $value) {
+        if($value['target_id'] && $value['display']){
+          $file = $value['target_id'];
+          $file = \Drupal::entityTypeManager()->getStorage('file')->load($value['target_id'])->getFileUri();
+          $file_url = \Drupal::service('file_url_generator')->generateAbsoluteString($file);
+          $variables['variable_files'][$file_url] = $value;
+        }
+
+      }
+
+    }
 
 
     if ($node->getType() === 'dokument_gradske_uprave') {

@@ -91,6 +91,20 @@
         }
       }
 
+      .field {
+        a {
+          text-transform: uppercase;
+        }
+      }
+
+    }
+
+    #block-b5subtheme-brojrachunazapomoc {
+      .field {
+        a {
+          color: $color-black;
+        }
+      }
     }
 
   }

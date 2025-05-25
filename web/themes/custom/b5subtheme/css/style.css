@@ -13216,6 +13216,9 @@ body main {
 .order-1 .region.region-content-bottom .block a:hover {
   text-decoration: underline;
 }
+.order-1 .region.region-content-bottom .block .field a {
+  text-transform: uppercase;
+}
 
 @media only screen and (min-width: 568px) {
   .order-1 {
@@ -13340,6 +13343,12 @@ body main {
 }
 .region.region-sidebar-second .block a:hover {
   text-decoration: underline;
+}
+.region.region-sidebar-second .block .field a {
+  text-transform: uppercase;
+}
+.region.region-sidebar-second #block-b5subtheme-brojrachunazapomoc .field a {
+  color: #212121;
 }
 
 footer .wrapper-footer {
