@@ -1,0 +1,14 @@
+<div class="col-md-4">
+  <div class="card">
+    <div class="card-img">
+      <img src="//via.placeholder.com/500x400/e66?text=2" class="img-fluid">
+    </div>
+    <div class="card-img-overlay">
+      {% if label and not page %}
+      <h2{{ title_attributes }}>
+        <a href="{{ url }}" rel="bookmark">{{ label }}</a>
+      </h2>
+      {% endif %}
+    </div>
+  </div>
+</div>

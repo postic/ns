@@ -128,6 +128,15 @@ body {
 
 .order-1 {
   .region {
+    &.region-content {
+      .node__content {
+        img {
+          margin-bottom: 1rem;
+          height: auto;
+          width: 100%;
+        }
+      }
+    }
     &.region-content-bottom {
       .block {
         width: calc(33.33% - 10px) !important;

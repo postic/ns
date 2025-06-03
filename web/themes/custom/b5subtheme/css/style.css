@@ -13132,6 +13132,54 @@ figure.no-img {
   margin-bottom: 0;
 }
 
+.view.view-informator-o-radu.view-id-informator_o_radu.view-display-id-page_1 .view-content {
+  margin: 2rem 0;
+}
+.view.view-informator-o-radu.view-id-informator_o_radu.view-display-id-page_1 .view-content .views-row {
+  padding: 1rem 0;
+}
+.view.view-informator-o-radu.view-id-informator_o_radu.view-display-id-page_1 .view-content .views-row h2, .view.view-informator-o-radu.view-id-informator_o_radu.view-display-id-page_1 .view-content .views-row .h2 {
+  border: 0;
+  font-size: 1.2rem;
+  margin: 0;
+  padding: 0;
+}
+.view.view-informator-o-radu.view-id-informator_o_radu.view-display-id-page_1 .view-content .views-row .node__submitted {
+  margin-bottom: 0;
+}
+
+.view.view-javna-preduzetsha-i-ustanove .view-content {
+  margin: 2rem 0;
+}
+.view.view-javna-preduzetsha-i-ustanove .view-content .views-row {
+  padding: 1rem 0;
+}
+.view.view-javna-preduzetsha-i-ustanove .view-content .views-row h2, .view.view-javna-preduzetsha-i-ustanove .view-content .views-row .h2 {
+  border: 0;
+  font-size: 1.2rem;
+  margin: 0;
+  padding: 0;
+}
+.view.view-javna-preduzetsha-i-ustanove .view-content .views-row .node__submitted {
+  margin-bottom: 0;
+}
+
+.view.view-istorija .view-content {
+  margin: 2rem 0;
+}
+.view.view-istorija .view-content .views-row {
+  padding: 1rem 0;
+}
+.view.view-istorija .view-content .views-row h2, .view.view-istorija .view-content .views-row .h2 {
+  border: 0;
+  font-size: 1.2rem;
+  margin: 0;
+  padding: 0;
+}
+.view.view-istorija .view-content .views-row .node__submitted {
+  margin-bottom: 0;
+}
+
 body {
   background: url(../images/bg-body.png) no-repeat 50% 0 #f0ece5;
   background-size: contain;
@@ -13227,6 +13275,11 @@ body main {
   body.path-frontpage .order-1 {
     padding-left: 0 !important;
   }
+}
+.order-1 .region.region-content .node__content img {
+  margin-bottom: 1rem;
+  height: auto;
+  width: 100%;
 }
 .order-1 .region.region-content-bottom .block {
   width: calc(33.33% - 10px) !important;
