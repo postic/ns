@@ -28,7 +28,6 @@
         "drupal/devel": "^5.3",
         "drupal/draggableviews": "^2.1",
         "drupal/empty_front_page": "^1.1",
-        "drupal/flexslider": "^3.0@alpha",
         "drupal/fontawesome": "^3.0",
         "drupal/libraries": "^4.0",
         "drupal/menu_block": "^1.14",
@@ -37,8 +36,6 @@
         "drupal/quicktabs": "^4.0",
         "drupal/smart_trim": "^2.2",
         "drupal/twig_tweak": "^3.4",
-        "drupal/views_bootstrap": "^5.5@RC",
-        "drupal/views_slideshow": "^5.0",
         "drush/drush": "^13.5"
     },
     "conflict": {
