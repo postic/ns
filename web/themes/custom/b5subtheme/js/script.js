@@ -42,6 +42,7 @@ jQuery(document).ready(function ($) {
     } else {
       $(multipleCardCarousel).addClass("slide");
     }
+
   }
 
 });

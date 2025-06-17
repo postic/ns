@@ -116,7 +116,7 @@
 
     {% if variable_images %}
 
-      <div id="multiItemCarousel" class="carousel">
+      <div id="multiItemCarousel" class="carousel newsCarousel">
         <div class="carousel-inner">
 
           {% for key, item in variable_images %}
@@ -126,8 +126,9 @@
             <div class="slide-item">
               <div class="slide-item-inner">
                 <div class="slide-item-img">
-                  {% set image_class = ( node.field_images.0 ) ? 'img' : 'no-img' %}
-                  <figure class={{ image_class }} style="background-image: url({{ item }});"></figure>
+                  <a href="{{ item }}" data-size="lg" data-toggle="lightbox">
+                    <figure style="background-image: url({{ item }});"></figure>
+                  </a>
                 </div>
               </div>
             </div>
