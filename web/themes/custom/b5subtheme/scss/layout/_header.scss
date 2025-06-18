@@ -53,3 +53,33 @@
       font-weight: 400;
    }
 }
+
+
+nav.navbar {
+   background-color: inherit !important;
+   //padding: 0;
+   #navbarSupportedContent {
+      padding: .5rem;
+      background-color: rgba(255, 255, 255, 0.5) !important;
+      border-radius: .5rem;
+      //background-color: $color-white-dark;
+      text-transform: uppercase;
+      .dropdown-menu {
+         border-top: 5px solid $color-green;
+         border-radius: 0;
+         padding: 0;
+         margin-top: 0;
+         .nav-item {
+            a.dropdown-item {
+               padding: 0.5rem;
+            }
+         }
+      }
+   }
+
+   #block-b5subtheme-mainnavigation {
+      background-image: linear-gradient($color-white, $color-white-dark);
+      border-radius: .5rem;
+   }
+}
+

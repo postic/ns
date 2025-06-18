@@ -1,0 +1,44 @@
+#block-b5subtheme-quicktabsodluke {
+  padding: 0;
+  .item-list {
+    .quicktabs-tabs {
+      display: flex;
+      background-color: $color-white;
+      //margin: 0;
+      li {
+        font-size: 1.7rem;
+        font-weight: 300;
+        margin: 0;
+        padding: 0.25rem 0;
+        background-color: $color-green;
+      //  padding: 0 1rem;
+      //  text-transform: uppercase;
+        a {
+          color: $color-white;
+          display: flex;
+          padding: 0 1rem;
+          text-transform: uppercase;
+          &:hover {
+            text-decoration: none;
+          }
+        }
+        &.active {
+          background-color: $color-white;
+      //    border-bottom: 1px solid #dedede;
+          a {
+            color: $color-primary;
+          }
+        }
+      //  a {
+      //    font-weight: 300;
+      //    text-transform: uppercase;
+      //  }
+      }
+    }
+  }
+
+  .quicktabs-main {
+    padding: 0 1rem;
+  }
+
+}

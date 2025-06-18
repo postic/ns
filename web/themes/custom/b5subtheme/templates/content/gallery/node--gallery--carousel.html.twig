@@ -1,0 +1,2 @@
+{% set image_class = ( node.field_images.0 ) ? 'img' : 'no-img' %}
+<figure class={{ image_class }} style="background-image: url({{ node.field_images.0|file_url }});"></figure>
