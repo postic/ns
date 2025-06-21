@@ -54,15 +54,65 @@
    }
 }
 
+// language
+.region {
+   &.region-nav-additional {
+      background-color: rgba(255, 255, 255, 0.5);
+      border-radius: 0.5rem;
+      padding: 0.5rem;
+      .region-inner {
+         background-image: linear-gradient($color-white, $color-white-dark);
+         align-items: center;
+         display: flex;
+         border-radius: 0.5rem;
+         ul {
+            display: flex;
+            margin: 0;
+            padding: 0 0 0 .5rem;
+            li {
+               display: flex;
+               margin-right: .5rem;
+               a {
+                  color: $color-black;
+               }
+            }
+         }
 
+         #search-block-form {
+
+            border-left: 1px solid $color-grey;
+            display: flex;
+            padding: 0.5rem;
+            .form-search {
+               border-radius: 0;
+               padding: .25rem .5rem;
+            }
+            .form-actions {
+               margin: 0;
+               .js-form-submit {
+                  font-family: 'Font Awesome\ 6 Free';
+                  background-color: $color-green;
+                  border: 1px solid $color-green;
+                  border-radius: 0;
+                  color: $color-white;
+                  content: '\f015';
+                  font-weight: 600;
+                  padding: .25rem .5rem;
+               }
+            }
+
+         }
+      }
+   }
+}
+
+// navbar
 nav.navbar {
    background-color: inherit !important;
-   //padding: 0;
    #navbarSupportedContent {
       padding: .5rem;
       background-color: rgba(255, 255, 255, 0.5) !important;
       border-radius: .5rem;
-      //background-color: $color-white-dark;
       text-transform: uppercase;
       .dropdown-menu {
          border-top: 5px solid $color-green;
@@ -80,6 +130,51 @@ nav.navbar {
    #block-b5subtheme-mainnavigation {
       background-image: linear-gradient($color-white, $color-white-dark);
       border-radius: .5rem;
+      ul.navbar-nav {
+         .nav-item {
+            &:hover {
+               background-color: $color-green;
+               .nav-link {
+                  color: $color-white;
+               }
+            }
+            .nav-link {
+               &.active {
+                  background-color: $color-green;
+                  color: $color-white;
+               }
+            }
+            span.active {
+               background-color: $color-green;
+               color: $color-white;
+            }
+            &.front-page-item {
+               a {
+                  font-size: 0;
+                  visibility: hidden;
+               }
+               a:before {
+                  font-family: 'Font Awesome 6 Free';
+                  font-size: 1rem;
+                  font-weight: 600;
+                  content: '\f015';
+                  visibility: visible;
+               }
+            }
+            &.dropdown {
+               .dropdown-menu {
+                  .nav-item {
+                     a.active {
+                        background-color: $color-green;
+                     }
+                     a:hover {
+                        background-color: $color-green;
+                        color: $color-white;
+                     }
+                  }
+               }
+            }
+         }
+      }
    }
 }
-

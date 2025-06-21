@@ -166,3 +166,36 @@
     }
   }
 }
+
+.region {
+  &.region-banner {
+    #multiItemCarousel {
+
+      .carousel-control-prev, .carousel-control-next {
+        top: 50%;
+
+      }
+      .carousel-inner {
+        padding: 0;
+        .carousel-item {
+          width: 100%;
+          .slide-item {
+            width: 100%;
+            .slide-item-inner {
+              padding: 0 0.5rem;
+            }
+            .slide-item-img {
+              padding-bottom: 0;
+              figure {
+                background-size: cover;
+                width: 100%;
+                //max-height: 10rem;
+                //height: 10rem;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

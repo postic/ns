@@ -20,6 +20,10 @@ footer {
                }
             }
          }
+         &.region-banner {
+            border-bottom: 1px solid $color-grey;
+            padding: 1.5rem .75rem;
+         }
       }
 
       .contentinfo {

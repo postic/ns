@@ -62,6 +62,7 @@ set footer_classes = ' ' ~
   <nav class="{{ nav_classes }}">
     <div class="{{ b5_top_container }} d-flex">
       {{ page.nav_branding }}
+      {{ page.nav_additional }}
     </div>
   </nav>
   {% endif %}
@@ -124,6 +125,13 @@ set footer_classes = ' ' ~
 
 <footer role="contentinfo" class="mt-auto container">
   <div class="wrapper-footer">
+
+    {% if page.banner %}
+      <div class="row">
+        {{ page.banner }}
+      </div>
+    {% endif %}
+
     <div class="row">
       {% if page.footer_first %}
       <div class="col-12 col-lg-2 contentinfo">

@@ -13184,6 +13184,23 @@ figure.no-img {
   margin-bottom: 0;
 }
 
+.view.view-galleries.view-id-galleries.view-display-id-page_1 .view-content {
+  margin: 2rem 0;
+}
+.view.view-galleries.view-id-galleries.view-display-id-page_1 .view-content .views-row {
+  margin: 0;
+  padding: 1rem 0;
+}
+.view.view-galleries.view-id-galleries.view-display-id-page_1 .view-content .views-row h2, .view.view-galleries.view-id-galleries.view-display-id-page_1 .view-content .views-row .h2 {
+  border: 0;
+  font-size: 1.2rem;
+  margin: 0;
+  padding: 0;
+}
+.view.view-galleries.view-id-galleries.view-display-id-page_1 .view-content .views-row .node__submitted {
+  margin-bottom: 0.65rem;
+}
+
 body {
   background: url(../images/bg-body.png) no-repeat 50% 0 #f0ece5;
   background-size: contain;
@@ -13338,6 +13355,52 @@ body main {
   font-weight: 400;
 }
 
+.region.region-nav-additional {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}
+.region.region-nav-additional .region-inner {
+  background-image: linear-gradient(#ffffff, #dedede);
+  align-items: center;
+  display: flex;
+  border-radius: 0.5rem;
+}
+.region.region-nav-additional .region-inner ul {
+  display: flex;
+  margin: 0;
+  padding: 0 0 0 0.5rem;
+}
+.region.region-nav-additional .region-inner ul li {
+  display: flex;
+  margin-right: 0.5rem;
+}
+.region.region-nav-additional .region-inner ul li a {
+  color: #212121;
+}
+.region.region-nav-additional .region-inner #search-block-form {
+  border-left: 1px solid #dedede;
+  display: flex;
+  padding: 0.5rem;
+}
+.region.region-nav-additional .region-inner #search-block-form .form-search {
+  border-radius: 0;
+  padding: 0.25rem 0.5rem;
+}
+.region.region-nav-additional .region-inner #search-block-form .form-actions {
+  margin: 0;
+}
+.region.region-nav-additional .region-inner #search-block-form .form-actions .js-form-submit {
+  font-family: "Font Awesome 6 Free";
+  background-color: #A6BC33;
+  border: 1px solid #A6BC33;
+  border-radius: 0;
+  color: #ffffff;
+  content: "\f015";
+  font-weight: 600;
+  padding: 0.25rem 0.5rem;
+}
+
 nav.navbar {
   background-color: inherit !important;
 }
@@ -13359,6 +13422,38 @@ nav.navbar #navbarSupportedContent .dropdown-menu .nav-item a.dropdown-item {
 nav.navbar #block-b5subtheme-mainnavigation {
   background-image: linear-gradient(#ffffff, #dedede);
   border-radius: 0.5rem;
+}
+nav.navbar #block-b5subtheme-mainnavigation ul.navbar-nav .nav-item:hover {
+  background-color: #A6BC33;
+}
+nav.navbar #block-b5subtheme-mainnavigation ul.navbar-nav .nav-item:hover .nav-link, nav.navbar #block-b5subtheme-mainnavigation ul.navbar-nav .nav-item:hover .media-library-view--widget .view-header a, .media-library-view--widget .view-header nav.navbar #block-b5subtheme-mainnavigation ul.navbar-nav .nav-item:hover a {
+  color: #ffffff;
+}
+nav.navbar #block-b5subtheme-mainnavigation ul.navbar-nav .nav-item .nav-link.active, nav.navbar #block-b5subtheme-mainnavigation ul.navbar-nav .nav-item .media-library-view--widget .view-header a.active, .media-library-view--widget .view-header nav.navbar #block-b5subtheme-mainnavigation ul.navbar-nav .nav-item a.active, nav.navbar #block-b5subtheme-mainnavigation ul.navbar-nav .nav-item .media-library-view--widget .view-header a.is-active, .media-library-view--widget .view-header nav.navbar #block-b5subtheme-mainnavigation ul.navbar-nav .nav-item a.is-active {
+  background-color: #A6BC33;
+  color: #ffffff;
+}
+nav.navbar #block-b5subtheme-mainnavigation ul.navbar-nav .nav-item span.active {
+  background-color: #A6BC33;
+  color: #ffffff;
+}
+nav.navbar #block-b5subtheme-mainnavigation ul.navbar-nav .nav-item.front-page-item a {
+  font-size: 0;
+  visibility: hidden;
+}
+nav.navbar #block-b5subtheme-mainnavigation ul.navbar-nav .nav-item.front-page-item a:before {
+  font-family: "Font Awesome 6 Free";
+  font-size: 1rem;
+  font-weight: 600;
+  content: "\f015";
+  visibility: visible;
+}
+nav.navbar #block-b5subtheme-mainnavigation ul.navbar-nav .nav-item.dropdown .dropdown-menu .nav-item a.active, nav.navbar #block-b5subtheme-mainnavigation ul.navbar-nav .nav-item.dropdown .dropdown-menu .nav-item .media-library-view--widget .view-header a.is-active, .media-library-view--widget .view-header nav.navbar #block-b5subtheme-mainnavigation ul.navbar-nav .nav-item.dropdown .dropdown-menu .nav-item a.is-active {
+  background-color: #A6BC33;
+}
+nav.navbar #block-b5subtheme-mainnavigation ul.navbar-nav .nav-item.dropdown .dropdown-menu .nav-item a:hover {
+  background-color: #A6BC33;
+  color: #ffffff;
 }
 
 .region.region-sidebar-first .block {
@@ -13448,6 +13543,10 @@ footer .wrapper-footer .region nav h5, footer .wrapper-footer .region nav .h5 {
 }
 footer .wrapper-footer .region nav ul.nav li a, footer .wrapper-footer .region nav .media-library-view--widget ul.view-header li a, .media-library-view--widget footer .wrapper-footer .region nav ul.view-header li a {
   padding: 0.125rem 0;
+}
+footer .wrapper-footer .region.region-banner {
+  border-bottom: 1px solid #dedede;
+  padding: 1.5rem 0.75rem;
 }
 footer .wrapper-footer .contentinfo {
   border-right: 1px solid #dedede;
@@ -13692,6 +13791,29 @@ footer .wrapper-footer .region-disclaimer nav ul.nav .nav-item .nav-link, footer
   width: 100%;
   max-height: 21rem;
   height: 21rem;
+}
+
+.region.region-banner #multiItemCarousel .carousel-control-prev, .region.region-banner #multiItemCarousel .carousel-control-next {
+  top: 50%;
+}
+.region.region-banner #multiItemCarousel .carousel-inner {
+  padding: 0;
+}
+.region.region-banner #multiItemCarousel .carousel-inner .carousel-item {
+  width: 100%;
+}
+.region.region-banner #multiItemCarousel .carousel-inner .carousel-item .slide-item {
+  width: 100%;
+}
+.region.region-banner #multiItemCarousel .carousel-inner .carousel-item .slide-item .slide-item-inner {
+  padding: 0 0.5rem;
+}
+.region.region-banner #multiItemCarousel .carousel-inner .carousel-item .slide-item .slide-item-img {
+  padding-bottom: 0;
+}
+.region.region-banner #multiItemCarousel .carousel-inner .carousel-item .slide-item .slide-item-img figure {
+  background-size: cover;
+  width: 100%;
 }
 
 ol.breadcrumb li a {

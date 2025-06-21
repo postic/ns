@@ -1,0 +1,8 @@
+<div class="slide-item">
+  <div class="slide-item-inner">
+    <div class="slide-item-img">
+      {% set image_class = ( node.field_image.0 ) ? 'img' : 'no-img' %}
+      <figure class={{ image_class }} style="background-image: url({{ node.field_image.0|file_url }});"></figure>
+    </div>
+  </div>
+</div>
