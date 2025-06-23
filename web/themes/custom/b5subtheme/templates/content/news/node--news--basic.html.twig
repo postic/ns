@@ -79,6 +79,26 @@
 %}
 {{ attach_library('bootstrap5/node') }}
 
+{% if node.field_category.target_id != 5 %}
+
+<div class="row">
+  <div class='col'>
+    {% if label and not page %}
+    <h2{{ title_attributes }}>
+      <a href="{{ url }}" rel="bookmark">{{ node.label }}</a>
+    </h2>
+    {% endif %}
+    {% if display_submitted %}
+    <div{{ author_attributes.addClass('node__submitted') }}>
+      {{ date }}
+      {{ metadata }}
+    </div>
+    {% endif %}
+  </div>
+</div>
+
+{% else %}
+
 <div class="row">
   <div class='col-md-3'>
 
@@ -101,3 +121,5 @@
     {% endif %}
   </div>
 </div>
+
+{% endif %}

@@ -33,7 +33,6 @@
           }
         }
       }
-
     }
 
     .view-content {
@@ -51,8 +50,6 @@
         }
       }
     }
-
-
   }
 
   &.region-sidebar-second {
@@ -65,9 +62,13 @@
       margin-bottom: 1rem;
       padding: 0.5rem;
 
-      h2 {
-        border-bottom: 1px solid $color-white-dark;
+      h2, h5 {
+        border-bottom:  1px solid $color-white-dark;
         font-size: 1.2rem;
+        font-weight: normal;
+        margin-bottom: 0;
+        padding: 0.5rem 0;
+        text-transform: uppercase;
       }
 
       p {
@@ -96,7 +97,6 @@
           text-transform: uppercase;
         }
       }
-
     }
 
     #block-b5subtheme-brojrachunazapomoc {
@@ -106,7 +106,5 @@
         }
       }
     }
-
   }
-
 }

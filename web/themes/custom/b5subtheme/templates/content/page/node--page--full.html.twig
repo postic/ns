@@ -115,50 +115,41 @@
     {{ content.body }}
 
     {% if variable_images %}
-      <div class="row mx-auto my-auto justify-content-center">
-        <div id="recipeCarousel" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-inner" role="listbox">
-            {% for key, item in variable_images %}
 
-            {% set active_class = ( key == '0' ) ? 'active' : '' %}
+      <div id="multiItemCarousel" class="carousel newsCarousel">
+        <div class="carousel-inner">
 
-            <div class="carousel-item {{ active_class }}">
-              <div class="col-md-3">
-                <div class="card">
-                  <div class="card-img">
-                    <img src="{{ item }}" class="img-fluid">
-                  </div>
-                  <div class="card-img-overlay">
-                    <a href="{{ item }}" data-toggle="lightbox" data-size="lg" data-gallery="gallery">
-                      <i class="fa fa-search" aria-hidden="true"></i>
-                    </a>
-                  </div>
+          {% for key, item in variable_images %}
+          {% set active_class = ( key == '0' ) ? 'active' : '' %}
+
+          <div class="carousel-item {{ active_class }}">
+            <div class="slide-item">
+              <div class="slide-item-inner">
+                <div class="slide-item-img">
+                  <a href="{{ item }}" data-size="lg" data-toggle="lightbox">
+                    <figure style="background-image: url({{ item }});"></figure>
+                  </a>
                 </div>
               </div>
             </div>
-            {% endfor %}
           </div>
+
+          {% endfor %}
+
         </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#multiItemCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#multiItemCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
+
     {% endif %}
 
   </div>
 
 </article>
-
-<script>
-  let items = document.querySelectorAll('.carousel .carousel-item')
-  items.forEach((el) => {
-    const minPerSlide = 4
-    let next = el.nextElementSibling
-    for (var i=1; i<minPerSlide; i++) {
-      if (!next) {
-        // wrap carousel by using first child
-        next = items[0]
-      }
-      let cloneChild = next.cloneNode(true)
-      el.appendChild(cloneChild.children[0])
-      next = next.nextElementSibling
-    }
-  })
-</script>

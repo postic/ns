@@ -73,7 +73,8 @@ figure {
 }
 
 // news
-.block.block-views.block-views-blocknews-block-2 {
+.block.block-views.block-views-blocknews-block-2,
+.block.block-views.block-views-blocknews-block-3 {
   .views-row {
     h2 {
       border-bottom: 0;
@@ -246,7 +247,8 @@ figure {
 }
 
 // clanak
-.view.view-istorija {
+.view.view-istorija,
+.view.view-investicije, {
   .view-content {
     margin: 2rem 0;
     .views-row {
