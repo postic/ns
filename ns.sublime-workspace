@@ -296,10 +296,19 @@
 	"buffers":
 	[
 		{
-			"file": "/home/stevan/Downloads/templates/layout/html.html.twig",
+			"file": "phpminiadmin.php",
 			"settings":
 			{
-				"buffer_size": 3834,
+				"buffer_size": 41638,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/stevan/Downloads/backup-2025-06-18T13-13-48.mysql",
+			"settings":
+			{
+				"buffer_size": 14021993,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -355,19 +364,11 @@
 	[
 		"/var/www/ns",
 		"/var/www/ns/web",
-		"/var/www/ns/web/themes",
-		"/var/www/ns/web/themes/custom",
-		"/var/www/ns/web/themes/custom/b5subtheme",
-		"/var/www/ns/web/themes/custom/b5subtheme/js",
-		"/var/www/ns/web/themes/custom/b5subtheme/scss",
-		"/var/www/ns/web/themes/custom/b5subtheme/scss/components",
-		"/var/www/ns/web/themes/custom/b5subtheme/scss/layout",
-		"/var/www/ns/web/themes/custom/b5subtheme/templates",
-		"/var/www/ns/web/themes/custom/b5subtheme/templates/content",
-		"/var/www/ns/web/themes/custom/b5subtheme/templates/content/news"
+		"/var/www/ns/web/themes"
 	],
 	"file_history":
 	[
+		"/home/stevan/Downloads/templates/layout/html.html.twig",
 		"/home/stevan/Downloads/templates/page.html.twig",
 		"/var/www/ns/web/themes/custom/b5subtheme/templates/content/news/node--news--basic.html.twig",
 		"/var/www/ns/web/themes/custom/b5subtheme/templates/content/news/node--news--teaser.html.twig",
@@ -494,12 +495,11 @@
 		"/var/www/ns/web/themes/contrib/flexistyle_bootstrap/templates/components/footer.html.twig",
 		"/var/www/ns/web/themes/contrib/flexistyle_bootstrap/templates/page/page.html.twig",
 		"/var/www/ns/web/themes/custom/novi_sad/novi_sad.info.yml",
-		"/var/www/ns/web/themes/custom/novi_sad/flexistyle_bootstrap_scss.info.yml",
-		"/var/www/ns/web/themes/custom/novi_sad/theme-settings.php"
+		"/var/www/ns/web/themes/custom/novi_sad/flexistyle_bootstrap_scss.info.yml"
 	],
 	"find":
 	{
-		"height": 42.0
+		"height": 27.0
 	},
 	"find_in_files":
 	{
@@ -603,34 +603,63 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/home/stevan/Downloads/templates/layout/html.html.twig",
+					"file": "phpminiadmin.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3834,
+						"buffer_size": 41638,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1466,
-								1466
+								298,
+								298
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
 							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"translate_tabs_to_spaces": true,
+							"word_wrap": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1590.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/home/stevan/Downloads/backup-2025-06-18T13-13-48.mysql",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 14021993,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
