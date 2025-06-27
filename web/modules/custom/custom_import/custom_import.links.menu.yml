@@ -1,0 +1,6 @@
+custom_menu.form:
+  title: 'Import of nodes'
+  description: 'Import of nodes form previous version of site'
+  route_name: 'custom_import.form'
+  parent: system.admin_config
+  weight: 100

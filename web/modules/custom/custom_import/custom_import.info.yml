@@ -1,0 +1,6 @@
+name: 'Custom Node Import'
+type: module
+description: 'A custom module for batch operations.'
+package: Custom
+core_version_requirement: ^10.3 || ^11.0
+dependencies: []

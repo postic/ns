@@ -1,0 +1,7 @@
+custom_import.form:
+  path: '/admin/config/custom/import'
+  defaults:
+    _form: '\Drupal\custom_import\Form\CustomImportForm'
+    _title: 'Import of nodes from previous version of site'
+  requirements:
+    _permission: 'access content'

@@ -29,6 +29,7 @@
         "drupal/devel": "^5.3",
         "drupal/draggableviews": "^2.1",
         "drupal/empty_front_page": "^1.1",
+        "drupal/examples": "^4.0",
         "drupal/fontawesome": "^3.0",
         "drupal/libraries": "^4.0",
         "drupal/menu_block": "^1.14",
