@@ -305,10 +305,19 @@
 			}
 		},
 		{
-			"file": "/home/stevan/Downloads/backup-2025-06-18T13-13-48.mysql",
+			"file": ".gitignore",
 			"settings":
 			{
-				"buffer_size": 14021993,
+				"buffer_size": 523,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "web/example.gitignore",
+			"settings":
+			{
+				"buffer_size": 1499,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -364,10 +373,11 @@
 	[
 		"/var/www/ns",
 		"/var/www/ns/web",
-		"/var/www/ns/web/themes"
+		"/var/www/ns/web/libraries"
 	],
 	"file_history":
 	[
+		"/home/stevan/Downloads/backup-2025-06-18T13-13-48.mysql",
 		"/home/stevan/Downloads/templates/layout/html.html.twig",
 		"/home/stevan/Downloads/templates/page.html.twig",
 		"/var/www/ns/web/themes/custom/b5subtheme/templates/content/news/node--news--basic.html.twig",
@@ -494,8 +504,7 @@
 		"/var/www/ns/web/themes/custom/novi_sad/templates/components/header.html.twig",
 		"/var/www/ns/web/themes/contrib/flexistyle_bootstrap/templates/components/footer.html.twig",
 		"/var/www/ns/web/themes/contrib/flexistyle_bootstrap/templates/page/page.html.twig",
-		"/var/www/ns/web/themes/custom/novi_sad/novi_sad.info.yml",
-		"/var/www/ns/web/themes/custom/novi_sad/flexistyle_bootstrap_scss.info.yml"
+		"/var/www/ns/web/themes/custom/novi_sad/novi_sad.info.yml"
 	],
 	"find":
 	{
@@ -634,35 +643,63 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "/home/stevan/Downloads/backup-2025-06-18T13-13-48.mysql",
+					"file": ".gitignore",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 14021993,
+						"buffer_size": 523,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								165,
+								165
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/Git Formats/Git Ignore.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "web/example.gitignore",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1499,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1058,
+								1058
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Git Formats/Git Ignore.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 230.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
